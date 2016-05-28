@@ -93,7 +93,7 @@ namespace Plugin.MobileFirst
         /// Configures the Client Instances
         /// </summary>
         /// <param name="wlc">Worklight Client Instance</param>
-        public void Init(IWorklightClient wlc) => _client = wlc;
+        public void Init(object wlc) => _client = (IWorklightClient)wlc;
 
         #endregion
 
@@ -342,7 +342,7 @@ namespace Plugin.MobileFirst
             Debug.WriteLine("We are ready to subscribe to the notification service!!");
 #endif
 
-            _client.PushService.RegisterEventSourceNotificationCallback(_pushAlias, "PushAdapter", "PushEventSource", new NotificationListener());
+            _client.PushService.RegisterEventSourceNotificationCallback(_pushAlias, "PushAdapter", "PushEventSource", new PushNotificationListener());
             _client.PushService.SubscribeToEventSource(_pushAlias, new Dictionary<string, string>());
         }
 

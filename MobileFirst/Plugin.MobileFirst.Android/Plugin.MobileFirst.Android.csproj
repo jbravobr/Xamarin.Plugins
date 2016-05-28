@@ -41,14 +41,23 @@
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Json" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
+    <Reference Include="Worklight.Android">
+      <HintPath>..\..\Components\ibm-worklight-7.1.0.1\lib\android\Worklight.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Worklight.Xamarin.Android">
+      <HintPath>..\..\Components\ibm-worklight-7.1.0.1\lib\android\Worklight.Xamarin.Android.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Plugin.MobileFirst\CrossMobileFirst.cs">
       <Link>CrossMobileFirst.cs</Link>
     </Compile>
+    <Compile Include="CustomChallengeHandler.cs" />
     <Compile Include="MobileFirstImplementation.cs" />
+    <Compile Include="NotificationListener.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -60,6 +69,12 @@
       <Project>{6edb0588-ffc5-4ef5-8a99-9e241d0f878d}</Project>
       <Name>Plugin.MobileFirst.Abstractions</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="ibm-worklight">
+      <Visible>False</Visible>
+      <Version>7.1.0.1</Version>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

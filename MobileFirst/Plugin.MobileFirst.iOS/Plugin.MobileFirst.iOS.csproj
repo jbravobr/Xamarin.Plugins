@@ -38,7 +38,9 @@
     <Compile Include="..\Plugin.MobileFirst\CrossMobileFirst.cs">
       <Link>CrossMobileFirst.cs</Link>
     </Compile>
+    <Compile Include="CustomChallengeHandler.cs" />
     <Compile Include="MobileFirstImplementation.cs" />
+    <Compile Include="NotificationListener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

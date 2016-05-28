@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AdapterAuthenticationInfo class">
+    <HelpKINode Title="AdapterAuthenticationInfo Class" Url="html/d8c1906e-3a2b-6cbe-5dd9-18655011131b.htm" />
+    <HelpKINode Title="about AdapterAuthenticationInfo class" Url="html/d8c1906e-3a2b-6cbe-5dd9-18655011131b.htm" />
+    <HelpKINode Title="constructor" Url="html/afc4f1f4-080c-e0f4-f886-e6413f365031.htm" />
+    <HelpKINode Title="methods" Url="html/512bdcbd-a14f-cc6e-ced6-717d63533308.htm" />
+    <HelpKINode Title="properties" Url="html/59e8eb28-bbec-4c4b-34e3-baacd8b08c88.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdapterAuthenticationInfo.AdapterAuthenticationInfo constructor" Url="html/afc4f1f4-080c-e0f4-f886-e6413f365031.htm" />
+  <HelpKINode Title="AdapterAuthenticationInfo.InvocationData property" Url="html/0d94d1dc-38e6-a6cf-8486-fc56a1544b17.htm" />
+  <HelpKINode Title="AdapterAuthenticationInfo.RequestOptions property" Url="html/2cf01cb0-ac5b-5c1a-b2cb-40e74d5c4853.htm" />
+  <HelpKINode Title="AdapterName property" Url="html/aa211471-eb5f-4200-97a0-17a9bdf63a1a.htm" />
+  <HelpKINode Title="AddAdditionalSearchFields method" Url="html/d4d60a78-93b9-1e8f-0f5c-78a4845eab12.htm" />
+  <HelpKINode Title="AddBetween method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddBetween Method " Url="html/c24bafd8-5848-fe0e-b94d-766392e7b103.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddBetween Method " Url="html/9b0dcc27-1183-bd54-90f8-ff6bda0ce907.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddData method" Url="html/ba77ea56-e69a-5b69-517a-495fea416c07.htm" />
+  <HelpKINode Title="AddEqual method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddEqual Method " Url="html/737c8335-8426-f6fd-f0a9-76545a86b52d.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddEqual Method " Url="html/3c5a88cd-f8e6-8f89-7886-4cc1ce4fff5a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddGreaterThan method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddGreaterThan Method " Url="html/145e371f-70aa-b4f6-e7b8-3407da91fd5c.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddGreaterThan Method " Url="html/1fb9a921-8d99-2f8d-1bea-f2d3a717f4dc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddGreaterThanOrEqual method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddGreaterThanOrEqual Method " Url="html/07732f69-b6fb-dbbe-9fa9-091f9ba9019f.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddGreaterThanOrEqual Method " Url="html/912f0a8e-be33-b19a-3baf-01921c7525f0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddInside method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddInside Method " Url="html/485aea5e-263f-56f2-0690-4d48ae88d418.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddInside Method " Url="html/26e5d643-210e-02f5-0849-9b695a2d2e7f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdditionalSearchFields property" Url="html/ae066c79-2617-8500-757e-baf5d1cbd6e1.htm" />
+  <HelpKINode Title="AddLeftLike method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddLeftLike Method " Url="html/2e0eaf53-3c3a-6b5a-59fc-a57169b5bbe7.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLeftLike Method " Url="html/7d24d89e-360d-1db3-cd7b-c0adf993fe1e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddLessThan method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddLessThan Method " Url="html/f36e0423-4bc4-8b7f-d83f-4a3df67a1f14.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLessThan Method " Url="html/26b244e1-577f-9427-c7db-674012a07fe3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddLessThanOrEqual method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddLessThanOrEqual Method " Url="html/1c4335b1-79e3-5a79-1d43-f0d853d6ffd5.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLessThanOrEqual Method " Url="html/5f2848fb-62f3-c74d-d84d-7c0e5e0ed5b9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddLike method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddLike Method " Url="html/33f1ccac-58af-7c68-d9a7-a54d07a5e796.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLike Method " Url="html/fd8dad1e-0efc-7978-912c-2fc817c1407a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNew property">
+    <HelpKINode Title="WorklightJSONStoreChangeOptions.AddNew Property " Url="html/92c52e31-e652-c7dc-ed9b-18e7ed954f47.htm" />
+    <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.AddNew Property " Url="html/659700d8-4c4b-a0bf-f27b-23c2bf4371b0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNotBetween method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotBetween Method " Url="html/b453238a-1f17-d4f9-4765-cf41ae83b974.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotBetween Method " Url="html/bcc0d223-2e57-01d2-5ce2-85307050e267.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNotEqual method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotEqual Method " Url="html/848784dd-7568-bfe6-e228-36202ae8153e.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotEqual Method " Url="html/27612b03-a20e-7964-5815-61627e4fd471.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNotInside method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotInside Method " Url="html/962b38bc-c622-c321-13e1-92f7522b38b8.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotInside Method " Url="html/31b351a1-ce7b-74bf-2d43-ece91913bf78.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNotLeftLike method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotLeftLike Method " Url="html/957ed603-a99f-ae56-764f-dc246dde49c5.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotLeftLike Method " Url="html/6aec25c2-8c92-2e1e-0169-9ffbc522cccf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNotLike method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotLike Method " Url="html/247c30f6-ca62-235b-3a20-6a4f61375caa.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotLike Method " Url="html/573ce729-aa57-ca4a-1ced-6d3b0f4f5f4a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddNotRightLike method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotRightLike Method " Url="html/811c0444-6f3f-37c4-dd0d-dc4316c1c712.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotRightLike Method " Url="html/63c4bf3c-9950-eba6-9b6d-0861e3dfac0f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddRightLike method">
+    <HelpKINode Title="WorklightJSONStoreQueryPart.AddRightLike Method " Url="html/97815a8c-8596-a6cf-93d4-38146d4d4538.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddRightLike Method " Url="html/66591186-7b86-577b-343b-684b30cdc3ba.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddSearchFieldToCriteria method">
+    <HelpKINode Title="WorklightJSONStoreChangeOptions.AddSearchFieldToCriteria Method " Url="html/6a988f16-00cb-1f23-3a63-7395fc0ded68.htm" />
+    <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.AddSearchFieldToCriteria Method " Url="html/ea6e5ad6-1dc6-9412-04ab-f93883fd19c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ANALYTICS enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Analytics property" Url="html/7289b59c-144a-a919-1559-b7991d83ab5f.htm" />
+  <HelpKINode Title="Boolean enumeration member" Url="html/8bdc109e-7241-618f-1bcd-3824a157cb88.htm" />
+  <HelpKINode Title="ChallengeHandler class">
+    <HelpKINode Title="ChallengeHandler Class" Url="html/21db73d2-38fd-ec15-0a10-2350915d3e23.htm" />
+    <HelpKINode Title="about ChallengeHandler class" Url="html/21db73d2-38fd-ec15-0a10-2350915d3e23.htm" />
+    <HelpKINode Title="constructor" Url="html/f12d05e9-8d71-7a75-eb91-72e5f92662bb.htm" />
+    <HelpKINode Title="methods" Url="html/91ac91ce-c7ec-3a3c-1f31-00db34cc8939.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ChallengeHandler.ChallengeHandler constructor" Url="html/f12d05e9-8d71-7a75-eb91-72e5f92662bb.htm" />
+  <HelpKINode Title="ChallengeHandler.GetAdapterAuthenticationParameters method" Url="html/b2713686-7730-4a44-9313-3bb468ba1173.htm" />
+  <HelpKINode Title="ChallengeHandler.GetLoginFormParameters method" Url="html/69679de0-f195-9130-4c0d-23e6b9947516.htm" />
+  <HelpKINode Title="ChallengeHandler.GetRealm method" Url="html/61d51595-bd9c-0434-80f3-cb7319a248e5.htm" />
+  <HelpKINode Title="ChallengeHandler.HandleChallenge method" Url="html/640b95e9-efae-2b85-793e-db0f3a19b640.htm" />
+  <HelpKINode Title="ChallengeHandler.IsCustomResponse method" Url="html/7e41546e-a9b7-2162-d003-edf592ebf29b.htm" />
+  <HelpKINode Title="ChallengeHandler.OnFailure method" Url="html/12686ad1-681a-8cb5-dd0c-adfe4588c26b.htm" />
+  <HelpKINode Title="ChallengeHandler.OnSuccess method" Url="html/84ee1802-e16c-4c10-f4d0-b987701a16e7.htm" />
+  <HelpKINode Title="ChallengeHandler.ShouldSubmitAdapterAuthentication method" Url="html/74838a82-276a-4d89-e0a8-71a81dd2bd78.htm" />
+  <HelpKINode Title="ChallengeHandler.ShouldSubmitLoginForm method" Url="html/c3063633-7b5d-f27e-b30d-f894cae8d52d.htm" />
+  <HelpKINode Title="ChallengeHandler.ShouldSubmitSuccess method" Url="html/16fb8ec4-1e5e-3914-0e76-428faf9bcfbc.htm" />
+  <HelpKINode Title="ChangeData method" Url="html/1686bf35-beab-aaf8-9093-1a77a8fa81d5.htm" />
+  <HelpKINode Title="ChangePassword method" Url="html/f1851133-91ca-950d-1af5-25a42c912207.htm" />
+  <HelpKINode Title="ClearCollection method" Url="html/5823c02b-4703-252c-e6ec-788692560ffd.htm" />
+  <HelpKINode Title="CloseAllCollections method" Url="html/94a64248-e050-6ff4-1d07-2080ebd8a7c6.htm" />
+  <HelpKINode Title="CollectionName property" Url="html/8f2d4b33-39af-ca82-f0b8-b46adbb332e8.htm" />
+  <HelpKINode Title="CommitTransaction method" Url="html/8ee56510-1026-e9d8-3569-2200e656630f.htm" />
+  <HelpKINode Title="CompressResponse property" Url="html/0796bf52-3c96-45ff-beed-c4bc00778eb4.htm" />
+  <HelpKINode Title="Connect method" Url="html/7c215c3c-0b89-4dd3-15ca-c6a64f0745d6.htm" />
+  <HelpKINode Title="CountAllDirtyDocuments method" Url="html/c77086af-0e2b-f92f-ad7d-97cf51cf170d.htm" />
+  <HelpKINode Title="CountAllDocuments method" Url="html/e0de5fe1-76bd-fdff-7ddc-d49f1dbc3f2b.htm" />
+  <HelpKINode Title="CountWithQueryParts method" Url="html/30694167-ed3e-c88d-763b-b83e07d9d4db.htm" />
+  <HelpKINode Title="DEBUG enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Debug method" Url="html/770cb378-3fa7-8551-aefe-e182655abe13.htm" />
+  <HelpKINode Title="Destroy method" Url="html/6909704e-e7cb-543c-cd02-294989ee721e.htm" />
+  <HelpKINode Title="DestroyWithUsername method" Url="html/52f986a0-b882-feb4-4556-9b994a9769c4.htm" />
+  <HelpKINode Title="Disable method" Url="html/5b1d7047-07ce-61dc-9170-7f1ada652cbc.htm" />
+  <HelpKINode Title="Enable method" Url="html/c0d0a50c-f9b7-8e2e-e326-0ccd4b120854.htm" />
+  <HelpKINode Title="ERROR enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Error method" Url="html/8cc96f13-c90e-4032-c28e-f7ba4f87734f.htm" />
+  <HelpKINode Title="FATAL enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Fatal method" Url="html/805ea873-3e8a-f0f8-f89c-3a8cf5cefbd8.htm" />
+  <HelpKINode Title="FilterSearchField method" Url="html/a0206ef2-a156-1668-12fd-eadabed86df5.htm" />
+  <HelpKINode Title="FindAllDocuments method" Url="html/e0b1f8df-a237-947b-7b56-22dbcd050f4b.htm" />
+  <HelpKINode Title="FindDocumentByID method" Url="html/c7bfacaa-cf22-9a0e-9502-77d6e1bd0c33.htm" />
+  <HelpKINode Title="FindDocumentsByID method" Url="html/a2d68588-1359-1b76-7603-cf26b1b5290f.htm" />
+  <HelpKINode Title="FindDocumentsWithQueryParts method" Url="html/1d0046ab-37c0-66f5-c590-478cd2e8228c.htm" />
+  <HelpKINode Title="Foreground property" Url="html/aad9d8d2-3998-ab0b-11d4-cae183110454.htm" />
+  <HelpKINode Title="GetAdapterAuthenticationParameters method" Url="html/b2713686-7730-4a44-9313-3bb468ba1173.htm" />
+  <HelpKINode Title="GetCollectionByName method" Url="html/55cc40dc-5181-1398-604f-f4475b030572.htm" />
+  <HelpKINode Title="GetFileInfo method" Url="html/fa1d2b9d-c09e-6a29-0705-07e26885a1da.htm" />
+  <HelpKINode Title="GetLoginFormParameters method" Url="html/69679de0-f195-9130-4c0d-23e6b9947516.htm" />
+  <HelpKINode Title="GetRealm method" Url="html/61d51595-bd9c-0434-80f3-cb7319a248e5.htm" />
+  <HelpKINode Title="GetResult method" Url="html/19eca299-10ea-a537-c020-aa53b84e458e.htm" />
+  <HelpKINode Title="HandleChallenge method" Url="html/640b95e9-efae-2b85-793e-db0f3a19b640.htm" />
+  <HelpKINode Title="HeartBeatInterval property" Url="html/15719a09-8e11-0991-c0bb-8465d9b92980.htm" />
+  <HelpKINode Title="HTTPStatus property" Url="html/a7af2678-bcac-dea8-d0d0-fd5c39157760.htm" />
+  <HelpKINode Title="INFO enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Info method" Url="html/dc65443a-d18d-9376-a7ba-bac7cb0b0464.htm" />
+  <HelpKINode Title="InitRegistration method" Url="html/1983b211-6b90-ce78-5635-9c24a59b76e9.htm" />
+  <HelpKINode Title="Integer enumeration member" Url="html/8bdc109e-7241-618f-1bcd-3824a157cb88.htm" />
+  <HelpKINode Title="InvocationContext property" Url="html/1710f909-e37e-9312-dd46-6eb5d15d7800.htm" />
+  <HelpKINode Title="InvocationData property" Url="html/0d94d1dc-38e6-a6cf-8486-fc56a1544b17.htm" />
+  <HelpKINode Title="InvokeProcedure method" Url="html/012d962f-9287-e1d2-a4ab-23d2b71314c0.htm" />
+  <HelpKINode Title="IsAliasSubscribed method" Url="html/18114bec-09e7-5df3-51b3-75107e84ea74.htm" />
+  <HelpKINode Title="IsAnalyticsEnabled property">
+    <HelpKINode Title="WorklightJSONStore.IsAnalyticsEnabled Property " Url="html/e2e28ae8-8439-31f1-200e-659d0589bf0a.htm" />
+    <HelpKINode Title="WorklightJSONStoreOpenOptions.IsAnalyticsEnabled Property " Url="html/ceb2237d-7a7c-8625-6abe-59cd8d90e9f5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsCustomResponse method" Url="html/7e41546e-a9b7-2162-d003-edf592ebf29b.htm" />
+  <HelpKINode Title="IsPushSupported property" Url="html/e086e04d-28cd-b07d-a6f6-f8fb72c879ea.htm" />
+  <HelpKINode Title="IsTagSubscribed method" Url="html/2038d0a3-e763-66d5-9ec5-b1ca2e4bf2b9.htm" />
+  <HelpKINode Title="isUncaughtExceptionDetected method" Url="html/ef1dbd84-2e38-d058-aa75-eae4b1ae2686.htm" />
+  <HelpKINode Title="IWorklightClient interface">
+    <HelpKINode Title="IWorklightClient Interface" Url="html/23f17cdb-bcbe-25e0-7b68-e6a34ac8e37e.htm" />
+    <HelpKINode Title="about IWorklightClient interface" Url="html/23f17cdb-bcbe-25e0-7b68-e6a34ac8e37e.htm" />
+    <HelpKINode Title="methods" Url="html/c5f63c6f-bcc9-af7a-3a06-cb8eddc244cc.htm" />
+    <HelpKINode Title="properties" Url="html/efc49d3d-fd78-cec7-3cf6-f96acb6209e2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWorklightClient.Analytics property" Url="html/7289b59c-144a-a919-1559-b7991d83ab5f.htm" />
+  <HelpKINode Title="IWorklightClient.Connect method" Url="html/7c215c3c-0b89-4dd3-15ca-c6a64f0745d6.htm" />
+  <HelpKINode Title="IWorklightClient.HeartBeatInterval property" Url="html/15719a09-8e11-0991-c0bb-8465d9b92980.htm" />
+  <HelpKINode Title="IWorklightClient.InvokeProcedure method" Url="html/012d962f-9287-e1d2-a4ab-23d2b71314c0.htm" />
+  <HelpKINode Title="IWorklightClient.JSONStoreService property" Url="html/cac1fb45-1930-c97d-0243-b49b3f05b235.htm" />
+  <HelpKINode Title="IWorklightClient.LogActivity method" Url="html/2683125f-127c-c66d-73b9-183763942030.htm" />
+  <HelpKINode Title="IWorklightClient.Logger method" Url="html/df3ce4e8-2d54-fd99-94a9-de5579296ae4.htm" />
+  <HelpKINode Title="IWorklightClient.PushService property" Url="html/0d6b3705-6df9-23e0-843c-08133c754433.htm" />
+  <HelpKINode Title="IWorklightClient.RegisterChallengeHandler method" Url="html/b12c8b97-8c78-8b71-b681-cfce5b4f2bfa.htm" />
+  <HelpKINode Title="IWorklightClient.ServerUrl property" Url="html/add0ff62-33ed-eead-a970-6956a14c8931.htm" />
+  <HelpKINode Title="JSONStore property" Url="html/5836757c-995a-1a64-e2e1-e03430e9762e.htm" />
+  <HelpKINode Title="JSONStoreAddOptions method" Url="html/a1ae09f0-a55f-50fa-f099-ded97047725f.htm" />
+  <HelpKINode Title="JSONStoreChangeOptions method" Url="html/c7387d35-3220-e41f-f4dc-0b21281ff8dd.htm" />
+  <HelpKINode Title="JSONStoreCollection method" Url="html/ae0919ed-99b0-336d-bd77-0f30b5f3da56.htm" />
+  <HelpKINode Title="JSONStoreFindOptions method" Url="html/d3e59c58-ddc6-b767-8fb2-d4f42f163f60.htm" />
+  <HelpKINode Title="JSONStoreOpenOptions method" Url="html/7a418f71-7ca3-7966-7c5c-e152b6a50173.htm" />
+  <HelpKINode Title="JSONStoreQueryPart method" Url="html/0e51a8ab-ac40-1522-ec12-081d47782028.htm" />
+  <HelpKINode Title="JSONStoreService property" Url="html/cac1fb45-1930-c97d-0243-b49b3f05b235.htm" />
+  <HelpKINode Title="Limit property" Url="html/0dc69735-b394-4e59-ea84-8f687a829b28.htm" />
+  <HelpKINode Title="LOG enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Log method">
+    <HelpKINode Title="WorklightAnalyticService.Log Method " Url="html/8e82dfd6-ca97-c849-bd0c-3981e5cf720b.htm" />
+    <HelpKINode Title="WorklightLogger.Log Method " Url="html/6c0c82f6-6432-8822-240c-e04d733273a6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogActivity method" Url="html/2683125f-127c-c66d-73b9-183763942030.htm" />
+  <HelpKINode Title="LogCapture property" Url="html/3c166aac-c03c-58a9-77d6-cd4118b926d9.htm" />
+  <HelpKINode Title="LogFilters property" Url="html/416fd62f-6c5e-d9b6-e9be-bef6b40af9cb.htm" />
+  <HelpKINode Title="Logger method" Url="html/df3ce4e8-2d54-fd99-94a9-de5579296ae4.htm" />
+  <HelpKINode Title="LoggerLevel enumeration" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="LoginFormInfo class">
+    <HelpKINode Title="LoginFormInfo Class" Url="html/d84f82c7-ff58-8f0d-ef72-d0766162c2a6.htm" />
+    <HelpKINode Title="about LoginFormInfo class" Url="html/d84f82c7-ff58-8f0d-ef72-d0766162c2a6.htm" />
+    <HelpKINode Title="constructor" Url="html/82aa1105-10fc-24db-ef59-2c9a67fddc4b.htm" />
+    <HelpKINode Title="methods" Url="html/44f1fd0d-14a7-0489-1f39-de7b8fe48d31.htm" />
+    <HelpKINode Title="properties" Url="html/1bd569d8-69ad-3283-b845-9e7f3012e8af.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginFormInfo.LoginFormInfo constructor" Url="html/82aa1105-10fc-24db-ef59-2c9a67fddc4b.htm" />
+  <HelpKINode Title="LoginFormInfo.RequestHeaders property" Url="html/f134b2ba-9aad-090c-1c10-bc1da2a5e2a1.htm" />
+  <HelpKINode Title="LoginFormInfo.RequestMethod property" Url="html/7a68e5a3-cca5-c693-3640-c691295ad699.htm" />
+  <HelpKINode Title="LoginFormInfo.RequestParameters property" Url="html/cbaac983-a103-3652-24c2-8ac4bcf76cb9.htm" />
+  <HelpKINode Title="LoginFormInfo.TimeOutInMs property" Url="html/fffb7584-95e2-3859-0d80-cfbe7198c001.htm" />
+  <HelpKINode Title="LoginFormInfo.Url property" Url="html/d921bce8-632e-faf8-801a-ea9b52d100cc.htm" />
+  <HelpKINode Title="LogLevel property" Url="html/908606de-39c5-922f-7596-7d9ad601de4d.htm" />
+  <HelpKINode Title="MarkDirty property">
+    <HelpKINode Title="WorklightJSONStoreAddOptions.MarkDirty Property " Url="html/f869be5b-5348-9361-1623-7dbd26c675b4.htm" />
+    <HelpKINode Title="WorklightJSONStoreChangeOptions.MarkDirty Property " Url="html/43a2f25d-cf55-8b3a-6975-036e8368352b.htm" />
+    <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.MarkDirty Property " Url="html/ba0a1c15-7a4a-4448-7312-f3c0d8ec2545.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarkDocumentsClean method" Url="html/7604d259-bf09-a1ee-1034-0b3ca52f07b4.htm" />
+  <HelpKINode Title="MaxFileSize property" Url="html/68b83778-9476-255f-d778-92a5e1d9edd5.htm" />
+  <HelpKINode Title="Message property" Url="html/1f4ee03e-87da-2580-18a4-339335788634.htm" />
+  <HelpKINode Title="NativeObject property">
+    <HelpKINode Title="WorklightJSONStore.NativeObject Property " Url="html/c445cef2-f423-d501-5bf0-990739089b28.htm" />
+    <HelpKINode Title="WorklightJSONStoreAddOptions.NativeObject Property " Url="html/aa589d41-6343-c1ee-bdef-16613c62ac91.htm" />
+    <HelpKINode Title="WorklightJSONStoreChangeOptions.NativeObject Property " Url="html/e2b3c793-0480-021d-a1d3-6759f04468bc.htm" />
+    <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.NativeObject Property " Url="html/c86aa8d7-6527-476f-7e14-b2772cf0cd00.htm" />
+    <HelpKINode Title="WorklightJSONStoreCollection.NativeObject Property " Url="html/7651b898-cbd1-2718-76ac-178488c2c89d.htm" />
+    <HelpKINode Title="WorklightJSONStoreFindOptions.NativeObject Property " Url="html/8bbe08ab-77fa-2ba4-cdf2-afb21c3b4490.htm" />
+    <HelpKINode Title="WorklightJSONStoreOpenOptions.NativeObject Property " Url="html/9279fe4e-f8e2-d893-3abd-d7d8a6c94e11.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPart.NativeObject Property " Url="html/e2c94f9c-69bd-2158-c329-32e9af4f9d69.htm" />
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.NativeObject Property " Url="html/f70d81db-d52e-da98-a412-826075bec6e6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Notification event" Url="html/456f3669-1458-62b3-fab4-83915a33116d.htm" />
+  <HelpKINode Title="NotificationPayload property" Url="html/3cb4c61f-220a-1b87-6d66-2a11b53bd39e.htm" />
+  <HelpKINode Title="NotificationProperties property" Url="html/35bd9e41-7fd0-5346-2f50-255dde599e69.htm" />
+  <HelpKINode Title="Number enumeration member" Url="html/8bdc109e-7241-618f-1bcd-3824a157cb88.htm" />
+  <HelpKINode Title="Offset property" Url="html/17ee89bf-9551-f232-98f9-3b402a974af4.htm" />
+  <HelpKINode Title="OnFailure method" Url="html/12686ad1-681a-8cb5-dd0c-adfe4588c26b.htm" />
+  <HelpKINode Title="OnMessage method" Url="html/52e50900-3a36-6162-4ce5-39bf3cfdbfec.htm" />
+  <HelpKINode Title="OnSuccess method" Url="html/84ee1802-e16c-4c10-f4d0-b987701a16e7.htm" />
+  <HelpKINode Title="OpenCollections method" Url="html/0959e746-0e7c-6b0b-f9df-1b2b92ccdb3c.htm" />
+  <HelpKINode Title="Parameters property" Url="html/6c4c1dbe-9bc0-2886-d15c-86336013df6d.htm" />
+  <HelpKINode Title="Password property" Url="html/d23b54e4-f26c-bb21-f23c-742b3c66901f.htm" />
+  <HelpKINode Title="ProcedureName property" Url="html/12eb7e6c-535d-a1d9-45ff-23d64be6ec16.htm" />
+  <HelpKINode Title="PushService property" Url="html/0d6b3705-6df9-23e0-843c-08133c754433.htm" />
+  <HelpKINode Title="ReadyToSubscribe event" Url="html/cf1c4b3a-e807-8d07-d05c-d9cd6bf175e7.htm" />
+  <HelpKINode Title="RegisterChallengeHandler method" Url="html/b12c8b97-8c78-8b71-b681-cfce5b4f2bfa.htm" />
+  <HelpKINode Title="RegisterEventSourceNotificationCallback method" Url="html/f859d455-c9ae-958f-a871-48273ac9d0bc.htm" />
+  <HelpKINode Title="RemoveCollection method" Url="html/541b6622-8d90-2d94-c5e4-89c888fe7637.htm" />
+  <HelpKINode Title="RemoveDocumentsByID method" Url="html/4578c756-f8ee-c22e-9a6e-d3c99a767316.htm" />
+  <HelpKINode Title="Reopened property" Url="html/9dcbafd6-0793-00c4-5ff7-fab19958afa9.htm" />
+  <HelpKINode Title="ReplaceDocuments method" Url="html/582909b6-f18a-e46b-a935-2ef23033a940.htm" />
+  <HelpKINode Title="RequestHeaders property" Url="html/f134b2ba-9aad-090c-1c10-bc1da2a5e2a1.htm" />
+  <HelpKINode Title="RequestMethod property" Url="html/7a68e5a3-cca5-c693-3640-c691295ad699.htm" />
+  <HelpKINode Title="RequestOptions property" Url="html/2cf01cb0-ac5b-5c1a-b2cb-40e74d5c4853.htm" />
+  <HelpKINode Title="RequestParameters property" Url="html/cbaac983-a103-3652-24c2-8ac4bcf76cb9.htm" />
+  <HelpKINode Title="ResponseJSON property" Url="html/00a0a71a-7e7a-89a7-6adc-ebffd9070927.htm" />
+  <HelpKINode Title="ResponseText property" Url="html/245f456d-cbb7-22f4-99ef-4488a9638238.htm" />
+  <HelpKINode Title="RollbackTransaction method" Url="html/8bdad3a9-8d84-73ff-47d3-85fdc8ddd9bb.htm" />
+  <HelpKINode Title="SearchFieldCriteria property">
+    <HelpKINode Title="WorklightJSONStoreChangeOptions.SearchFieldCriteria Property " Url="html/a4eacb9b-885a-aa8d-ceb5-d5894a0b2c3d.htm" />
+    <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.SearchFieldCriteria Property " Url="html/504a597b-ea27-869b-1234-16e21b48b11c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SearchFields property" Url="html/4f5bc7a0-083f-78ce-5ff9-6a0ae641c3cc.htm" />
+  <HelpKINode Title="SecureRandom property" Url="html/34aceb4f-39b0-a705-c698-d18796cd7d8a.htm" />
+  <HelpKINode Title="Send method">
+    <HelpKINode Title="WorklightAnalyticService.Send Method " Url="html/838f6396-14d7-c931-496a-0ad0301944d5.htm" />
+    <HelpKINode Title="WorklightLogger.Send Method " Url="html/d5915c12-c434-2507-a859-4fa2a31b7c8f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServerUrl property" Url="html/add0ff62-33ed-eead-a970-6956a14c8931.htm" />
+  <HelpKINode Title="setAutoSendLogs method" Url="html/9c034a1e-00f3-b2af-9641-d8b3409f8ca5.htm" />
+  <HelpKINode Title="setAutoUpdateConfigFromServer method" Url="html/dc7c3185-8782-454e-a0a2-50dc146b7cdb.htm" />
+  <HelpKINode Title="ShouldSubmitAdapterAuthentication method" Url="html/74838a82-276a-4d89-e0a8-71a81dd2bd78.htm" />
+  <HelpKINode Title="ShouldSubmitLoginForm method" Url="html/c3063633-7b5d-f27e-b30d-f894cae8d52d.htm" />
+  <HelpKINode Title="ShouldSubmitSuccess method" Url="html/16fb8ec4-1e5e-3914-0e76-428faf9bcfbc.htm" />
+  <HelpKINode Title="SortBySearchFieldAscending method" Url="html/1a61d4b3-cbe2-5f10-a79a-d17af646fa0c.htm" />
+  <HelpKINode Title="SortBySearchFieldDescending method" Url="html/15705dcd-fbe6-5043-8820-85b594e8e57f.htm" />
+  <HelpKINode Title="StartTransaction method" Url="html/c0f4d4eb-be32-6eb8-4acc-41fc101eec19.htm" />
+  <HelpKINode Title="String enumeration member" Url="html/8bdc109e-7241-618f-1bcd-3824a157cb88.htm" />
+  <HelpKINode Title="SubscribeToEventSource method" Url="html/7944553d-f80c-36aa-1a9a-a46c312493bc.htm" />
+  <HelpKINode Title="SubscribeToTag method" Url="html/e09a120a-dfb3-89d8-d64e-af84272c5c5c.htm" />
+  <HelpKINode Title="Success property" Url="html/3f23d42a-32ad-de65-4675-9c323a704c9b.htm" />
+  <HelpKINode Title="TimeOut property" Url="html/91ecf520-4d15-14ab-c60e-d0c54668997f.htm" />
+  <HelpKINode Title="TimeOutInMs property" Url="html/fffb7584-95e2-3859-0d80-cfbe7198c001.htm" />
+  <HelpKINode Title="TRACE enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Trace method" Url="html/c497e2e4-bfcf-f62e-73b4-ce23ca843598.htm" />
+  <HelpKINode Title="UnregisterReceivers method" Url="html/2e64126c-4e4a-6e12-3b18-56eb6f58030f.htm" />
+  <HelpKINode Title="UnsubscribeFromEventSource method" Url="html/3e3a17b7-2182-3b5a-09d9-55e002482aa7.htm" />
+  <HelpKINode Title="UnsubscribeFromTag method" Url="html/60026e1c-1297-983a-fccb-91f23e097171.htm" />
+  <HelpKINode Title="Url property" Url="html/d921bce8-632e-faf8-801a-ea9b52d100cc.htm" />
+  <HelpKINode Title="Username property" Url="html/3a0437a4-303b-b95d-c69a-fa60356844e0.htm" />
+  <HelpKINode Title="WARN enumeration member" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Warn method" Url="html/d045e101-aeb1-de1b-7b91-9d18839cd767.htm" />
+  <HelpKINode Title="Worklight namespace" Url="html/912ccfa6-d006-5764-5805-4b31040472bc.htm" />
+  <HelpKINode Title="Worklight.AdapterAuthenticationInfo class" Url="html/d8c1906e-3a2b-6cbe-5dd9-18655011131b.htm" />
+  <HelpKINode Title="Worklight.ChallengeHandler class" Url="html/21db73d2-38fd-ec15-0a10-2350915d3e23.htm" />
+  <HelpKINode Title="Worklight.IWorklightClient interface" Url="html/23f17cdb-bcbe-25e0-7b68-e6a34ac8e37e.htm" />
+  <HelpKINode Title="Worklight.LoggerLevel enumeration" Url="html/3bb86e87-0360-79f8-32de-0a8f8816fd79.htm" />
+  <HelpKINode Title="Worklight.LoginFormInfo class" Url="html/d84f82c7-ff58-8f0d-ef72-d0766162c2a6.htm" />
+  <HelpKINode Title="Worklight.WorklightAnalyticService class" Url="html/d4c417c4-e1b4-70e7-1784-ecb232c388fd.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStore class" Url="html/fddb49e4-f37d-ac0b-d646-d6ea67daa6d1.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreAddOptions class" Url="html/766028cf-a5ef-b8bc-f4de-ba09ad5f908e.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreChangeOptions class" Url="html/f062d089-86e1-60f7-0ce2-03d3a58121fe.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreChangeOptionsAndroid class" Url="html/dc8f362d-c76b-adf9-0166-43c8029506ae.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreCollection class" Url="html/32cf6e14-3ab6-0be1-3005-578304069c69.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreFindOptions class" Url="html/5e03301d-045b-ca20-3523-b630adf3d3fb.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreOpenOptions class" Url="html/94387caf-c758-4936-2d9f-906454a46060.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreQueryPart class" Url="html/2b19c57d-b277-6571-ea12-9839fe0a6ac5.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreQueryPartAndroid class" Url="html/a78d622d-c569-5179-fdd1-1d893ee7e22b.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreSearchFieldType enumeration" Url="html/8bdc109e-7241-618f-1bcd-3824a157cb88.htm" />
+  <HelpKINode Title="Worklight.WorklightJSONStoreService class" Url="html/a55a7da9-0542-52aa-71cd-fda8c50a8397.htm" />
+  <HelpKINode Title="Worklight.WorklightLogger class" Url="html/6a8d76e6-e806-f9e6-6ca8-7143ca7d3312.htm" />
+  <HelpKINode Title="Worklight.WorklightNotificationEventArgs class" Url="html/caaf1380-1ca8-79a6-5da9-b449fde5f30e.htm" />
+  <HelpKINode Title="Worklight.WorklightProcedureInvocationData class" Url="html/236949ab-8f57-43bf-d965-1a8115f9b0b1.htm" />
+  <HelpKINode Title="Worklight.WorklightProcedureInvocationResult class" Url="html/abc98083-81f5-98e2-0c13-e598fc271404.htm" />
+  <HelpKINode Title="Worklight.WorklightPushNotificationListener interface" Url="html/31a5895d-cbb6-523b-b6fe-7678c9d2db5c.htm" />
+  <HelpKINode Title="Worklight.WorklightPushService class" Url="html/4b8acbf1-c489-7fd0-1e95-d6c075cb4c50.htm" />
+  <HelpKINode Title="Worklight.WorklightPushService.WorklightNotificationEventHandler delegate" Url="html/a3e436d7-51b3-3d81-6092-afec6c611560.htm" />
+  <HelpKINode Title="Worklight.WorklightRequestOptions class" Url="html/a06aafbe-61a8-e009-b91d-dcf964fc8715.htm" />
+  <HelpKINode Title="Worklight.WorklightResponse class" Url="html/4a177ab5-3e81-09d9-ec9d-4fcfcc2fae22.htm" />
+  <HelpKINode Title="WorklightAnalyticService class">
+    <HelpKINode Title="WorklightAnalyticService Class" Url="html/d4c417c4-e1b4-70e7-1784-ecb232c388fd.htm" />
+    <HelpKINode Title="about WorklightAnalyticService class" Url="html/d4c417c4-e1b4-70e7-1784-ecb232c388fd.htm" />
+    <HelpKINode Title="constructor" Url="html/5d8a1f71-f76a-8fac-51bc-0ff6a035ef36.htm" />
+    <HelpKINode Title="methods" Url="html/7555c6ac-09c1-8d17-da27-798807b9da5c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightAnalyticService.Disable method" Url="html/5b1d7047-07ce-61dc-9170-7f1ada652cbc.htm" />
+  <HelpKINode Title="WorklightAnalyticService.Enable method" Url="html/c0d0a50c-f9b7-8e2e-e326-0ccd4b120854.htm" />
+  <HelpKINode Title="WorklightAnalyticService.Log method" Url="html/8e82dfd6-ca97-c849-bd0c-3981e5cf720b.htm" />
+  <HelpKINode Title="WorklightAnalyticService.Send method" Url="html/838f6396-14d7-c931-496a-0ad0301944d5.htm" />
+  <HelpKINode Title="WorklightAnalyticService.WorklightAnalyticService constructor" Url="html/5d8a1f71-f76a-8fac-51bc-0ff6a035ef36.htm" />
+  <HelpKINode Title="WorklightJSONStore class">
+    <HelpKINode Title="WorklightJSONStore Class" Url="html/fddb49e4-f37d-ac0b-d646-d6ea67daa6d1.htm" />
+    <HelpKINode Title="about WorklightJSONStore class" Url="html/fddb49e4-f37d-ac0b-d646-d6ea67daa6d1.htm" />
+    <HelpKINode Title="constructor" Url="html/46f9388c-0f9b-b5a7-4e13-79e7efa0d756.htm" />
+    <HelpKINode Title="methods" Url="html/ac4cc54e-1e39-4ee4-3176-0b7b557ee557.htm" />
+    <HelpKINode Title="properties" Url="html/6f8bfef3-2918-33ff-ba32-a277f73918b4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStore.ChangePassword method" Url="html/f1851133-91ca-950d-1af5-25a42c912207.htm" />
+  <HelpKINode Title="WorklightJSONStore.CloseAllCollections method" Url="html/94a64248-e050-6ff4-1d07-2080ebd8a7c6.htm" />
+  <HelpKINode Title="WorklightJSONStore.CommitTransaction method" Url="html/8ee56510-1026-e9d8-3569-2200e656630f.htm" />
+  <HelpKINode Title="WorklightJSONStore.Destroy method" Url="html/6909704e-e7cb-543c-cd02-294989ee721e.htm" />
+  <HelpKINode Title="WorklightJSONStore.DestroyWithUsername method" Url="html/52f986a0-b882-feb4-4556-9b994a9769c4.htm" />
+  <HelpKINode Title="WorklightJSONStore.GetCollectionByName method" Url="html/55cc40dc-5181-1398-604f-f4475b030572.htm" />
+  <HelpKINode Title="WorklightJSONStore.GetFileInfo method" Url="html/fa1d2b9d-c09e-6a29-0705-07e26885a1da.htm" />
+  <HelpKINode Title="WorklightJSONStore.IsAnalyticsEnabled property" Url="html/e2e28ae8-8439-31f1-200e-659d0589bf0a.htm" />
+  <HelpKINode Title="WorklightJSONStore.NativeObject property" Url="html/c445cef2-f423-d501-5bf0-990739089b28.htm" />
+  <HelpKINode Title="WorklightJSONStore.OpenCollections method" Url="html/0959e746-0e7c-6b0b-f9df-1b2b92ccdb3c.htm" />
+  <HelpKINode Title="WorklightJSONStore.RollbackTransaction method" Url="html/8bdad3a9-8d84-73ff-47d3-85fdc8ddd9bb.htm" />
+  <HelpKINode Title="WorklightJSONStore.StartTransaction method" Url="html/c0f4d4eb-be32-6eb8-4acc-41fc101eec19.htm" />
+  <HelpKINode Title="WorklightJSONStore.WorklightJSONStore constructor" Url="html/46f9388c-0f9b-b5a7-4e13-79e7efa0d756.htm" />
+  <HelpKINode Title="WorklightJSONStoreAddOptions class">
+    <HelpKINode Title="WorklightJSONStoreAddOptions Class" Url="html/766028cf-a5ef-b8bc-f4de-ba09ad5f908e.htm" />
+    <HelpKINode Title="about WorklightJSONStoreAddOptions class" Url="html/766028cf-a5ef-b8bc-f4de-ba09ad5f908e.htm" />
+    <HelpKINode Title="constructor" Url="html/b4e3ba75-8e9c-ad7e-f0ca-7c11808a767e.htm" />
+    <HelpKINode Title="methods" Url="html/61761a44-4f65-6136-d2c6-1dc65cbcb8dc.htm" />
+    <HelpKINode Title="properties" Url="html/687af027-4bdf-65ee-a975-20015ce950be.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreAddOptions.AddAdditionalSearchFields method" Url="html/d4d60a78-93b9-1e8f-0f5c-78a4845eab12.htm" />
+  <HelpKINode Title="WorklightJSONStoreAddOptions.MarkDirty property" Url="html/f869be5b-5348-9361-1623-7dbd26c675b4.htm" />
+  <HelpKINode Title="WorklightJSONStoreAddOptions.NativeObject property" Url="html/aa589d41-6343-c1ee-bdef-16613c62ac91.htm" />
+  <HelpKINode Title="WorklightJSONStoreAddOptions.WorklightJSONStoreAddOptions constructor" Url="html/b4e3ba75-8e9c-ad7e-f0ca-7c11808a767e.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptions class">
+    <HelpKINode Title="WorklightJSONStoreChangeOptions Class" Url="html/f062d089-86e1-60f7-0ce2-03d3a58121fe.htm" />
+    <HelpKINode Title="about WorklightJSONStoreChangeOptions class" Url="html/f062d089-86e1-60f7-0ce2-03d3a58121fe.htm" />
+    <HelpKINode Title="constructor" Url="html/71e806fb-5bec-e566-8baf-22d697394b3a.htm" />
+    <HelpKINode Title="methods" Url="html/5c64b603-458c-0932-bd70-a299b92f27b4.htm" />
+    <HelpKINode Title="properties" Url="html/a33abc1b-83d5-2f5f-03f6-d44ace6c0944.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreChangeOptions.AddNew property" Url="html/92c52e31-e652-c7dc-ed9b-18e7ed954f47.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptions.AddSearchFieldToCriteria method" Url="html/6a988f16-00cb-1f23-3a63-7395fc0ded68.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptions.MarkDirty property" Url="html/43a2f25d-cf55-8b3a-6975-036e8368352b.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptions.NativeObject property" Url="html/e2b3c793-0480-021d-a1d3-6759f04468bc.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptions.SearchFieldCriteria property" Url="html/a4eacb9b-885a-aa8d-ceb5-d5894a0b2c3d.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptions.WorklightJSONStoreChangeOptions constructor" Url="html/71e806fb-5bec-e566-8baf-22d697394b3a.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid class">
+    <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid Class" Url="html/dc8f362d-c76b-adf9-0166-43c8029506ae.htm" />
+    <HelpKINode Title="about WorklightJSONStoreChangeOptionsAndroid class" Url="html/dc8f362d-c76b-adf9-0166-43c8029506ae.htm" />
+    <HelpKINode Title="constructor" Url="html/59b49832-0af4-004d-76ff-f17db74488f3.htm" />
+    <HelpKINode Title="methods" Url="html/1db0ae96-afcb-98f0-4fae-7c43e625188a.htm" />
+    <HelpKINode Title="properties" Url="html/9ab5ce4f-6038-3beb-d080-7f57723d3565.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.AddNew property" Url="html/659700d8-4c4b-a0bf-f27b-23c2bf4371b0.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.AddSearchFieldToCriteria method" Url="html/ea6e5ad6-1dc6-9412-04ab-f93883fd19c7.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.MarkDirty property" Url="html/ba0a1c15-7a4a-4448-7312-f3c0d8ec2545.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.NativeObject property" Url="html/c86aa8d7-6527-476f-7e14-b2772cf0cd00.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.SearchFieldCriteria property" Url="html/504a597b-ea27-869b-1234-16e21b48b11c.htm" />
+  <HelpKINode Title="WorklightJSONStoreChangeOptionsAndroid.WorklightJSONStoreChangeOptionsAndroid constructor" Url="html/59b49832-0af4-004d-76ff-f17db74488f3.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection class">
+    <HelpKINode Title="WorklightJSONStoreCollection Class" Url="html/32cf6e14-3ab6-0be1-3005-578304069c69.htm" />
+    <HelpKINode Title="about WorklightJSONStoreCollection class" Url="html/32cf6e14-3ab6-0be1-3005-578304069c69.htm" />
+    <HelpKINode Title="constructor" Url="html/5153ec23-2aae-9264-9933-01dc8074f9cf.htm" />
+    <HelpKINode Title="methods" Url="html/ed3c10dc-635c-0ef5-412f-c1d560f1f58c.htm" />
+    <HelpKINode Title="properties" Url="html/eea73bc4-e395-5f5b-9acd-d13451f2c49a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreCollection.AddData method" Url="html/ba77ea56-e69a-5b69-517a-495fea416c07.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.AdditionalSearchFields property" Url="html/ae066c79-2617-8500-757e-baf5d1cbd6e1.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.ChangeData method" Url="html/1686bf35-beab-aaf8-9093-1a77a8fa81d5.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.ClearCollection method" Url="html/5823c02b-4703-252c-e6ec-788692560ffd.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.CollectionName property" Url="html/8f2d4b33-39af-ca82-f0b8-b46adbb332e8.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.CountAllDirtyDocuments method" Url="html/c77086af-0e2b-f92f-ad7d-97cf51cf170d.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.CountAllDocuments method" Url="html/e0de5fe1-76bd-fdff-7ddc-d49f1dbc3f2b.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.CountWithQueryParts method" Url="html/30694167-ed3e-c88d-763b-b83e07d9d4db.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.FindAllDocuments method" Url="html/e0b1f8df-a237-947b-7b56-22dbcd050f4b.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.FindDocumentByID method" Url="html/c7bfacaa-cf22-9a0e-9502-77d6e1bd0c33.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.FindDocumentsByID method" Url="html/a2d68588-1359-1b76-7603-cf26b1b5290f.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.FindDocumentsWithQueryParts method" Url="html/1d0046ab-37c0-66f5-c590-478cd2e8228c.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.MarkDocumentsClean method" Url="html/7604d259-bf09-a1ee-1034-0b3ca52f07b4.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.NativeObject property" Url="html/7651b898-cbd1-2718-76ac-178488c2c89d.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.RemoveCollection method" Url="html/541b6622-8d90-2d94-c5e4-89c888fe7637.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.RemoveDocumentsByID method" Url="html/4578c756-f8ee-c22e-9a6e-d3c99a767316.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.Reopened property" Url="html/9dcbafd6-0793-00c4-5ff7-fab19958afa9.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.ReplaceDocuments method" Url="html/582909b6-f18a-e46b-a935-2ef23033a940.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.SearchFields property" Url="html/4f5bc7a0-083f-78ce-5ff9-6a0ae641c3cc.htm" />
+  <HelpKINode Title="WorklightJSONStoreCollection.WorklightJSONStoreCollection constructor" Url="html/5153ec23-2aae-9264-9933-01dc8074f9cf.htm" />
+  <HelpKINode Title="WorklightJSONStoreFindOptions class">
+    <HelpKINode Title="WorklightJSONStoreFindOptions Class" Url="html/5e03301d-045b-ca20-3523-b630adf3d3fb.htm" />
+    <HelpKINode Title="about WorklightJSONStoreFindOptions class" Url="html/5e03301d-045b-ca20-3523-b630adf3d3fb.htm" />
+    <HelpKINode Title="constructor" Url="html/86e3eb24-6187-ca14-9a6a-e3e2b4da942a.htm" />
+    <HelpKINode Title="methods" Url="html/19911f6b-b46c-b47c-6fb9-8741f719ccae.htm" />
+    <HelpKINode Title="properties" Url="html/dfa1ec47-b729-3f35-7f35-611d7bc209b9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreFindOptions.FilterSearchField method" Url="html/a0206ef2-a156-1668-12fd-eadabed86df5.htm" />
+  <HelpKINode Title="WorklightJSONStoreFindOptions.Limit property" Url="html/0dc69735-b394-4e59-ea84-8f687a829b28.htm" />
+  <HelpKINode Title="WorklightJSONStoreFindOptions.NativeObject property" Url="html/8bbe08ab-77fa-2ba4-cdf2-afb21c3b4490.htm" />
+  <HelpKINode Title="WorklightJSONStoreFindOptions.Offset property" Url="html/17ee89bf-9551-f232-98f9-3b402a974af4.htm" />
+  <HelpKINode Title="WorklightJSONStoreFindOptions.SortBySearchFieldAscending method" Url="html/1a61d4b3-cbe2-5f10-a79a-d17af646fa0c.htm" />
+  <HelpKINode Title="WorklightJSONStoreFindOptions.SortBySearchFieldDescending method" Url="html/15705dcd-fbe6-5043-8820-85b594e8e57f.htm" />
+  <HelpKINode Title="WorklightJSONStoreFindOptions.WorklightJSONStoreFindOptions constructor" Url="html/86e3eb24-6187-ca14-9a6a-e3e2b4da942a.htm" />
+  <HelpKINode Title="WorklightJSONStoreOpenOptions class">
+    <HelpKINode Title="WorklightJSONStoreOpenOptions Class" Url="html/94387caf-c758-4936-2d9f-906454a46060.htm" />
+    <HelpKINode Title="about WorklightJSONStoreOpenOptions class" Url="html/94387caf-c758-4936-2d9f-906454a46060.htm" />
+    <HelpKINode Title="constructor" Url="html/c549836c-f0da-52f8-93c1-4214a1ecf244.htm" />
+    <HelpKINode Title="methods" Url="html/491002fb-5b99-7491-738c-8ff771b6287b.htm" />
+    <HelpKINode Title="properties" Url="html/93ced322-8933-9efb-95ef-b7659d9eb9c3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreOpenOptions.IsAnalyticsEnabled property" Url="html/ceb2237d-7a7c-8625-6abe-59cd8d90e9f5.htm" />
+  <HelpKINode Title="WorklightJSONStoreOpenOptions.NativeObject property" Url="html/9279fe4e-f8e2-d893-3abd-d7d8a6c94e11.htm" />
+  <HelpKINode Title="WorklightJSONStoreOpenOptions.Password property" Url="html/d23b54e4-f26c-bb21-f23c-742b3c66901f.htm" />
+  <HelpKINode Title="WorklightJSONStoreOpenOptions.SecureRandom property" Url="html/34aceb4f-39b0-a705-c698-d18796cd7d8a.htm" />
+  <HelpKINode Title="WorklightJSONStoreOpenOptions.Username property" Url="html/3a0437a4-303b-b95d-c69a-fa60356844e0.htm" />
+  <HelpKINode Title="WorklightJSONStoreOpenOptions.WorklightJSONStoreOpenOptions constructor" Url="html/c549836c-f0da-52f8-93c1-4214a1ecf244.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart class">
+    <HelpKINode Title="WorklightJSONStoreQueryPart Class" Url="html/2b19c57d-b277-6571-ea12-9839fe0a6ac5.htm" />
+    <HelpKINode Title="about WorklightJSONStoreQueryPart class" Url="html/2b19c57d-b277-6571-ea12-9839fe0a6ac5.htm" />
+    <HelpKINode Title="constructor" Url="html/2c0ebe91-0f60-2a75-dba6-f07b3483cfdd.htm" />
+    <HelpKINode Title="methods" Url="html/e5652efa-f1dd-2239-5d3e-c1d2c4f4e765.htm" />
+    <HelpKINode Title="properties" Url="html/d30ed166-d75f-3dd0-70d3-8a419275cf51.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddBetween method" Url="html/c24bafd8-5848-fe0e-b94d-766392e7b103.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddEqual method" Url="html/737c8335-8426-f6fd-f0a9-76545a86b52d.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddGreaterThan method" Url="html/145e371f-70aa-b4f6-e7b8-3407da91fd5c.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddGreaterThanOrEqual method" Url="html/07732f69-b6fb-dbbe-9fa9-091f9ba9019f.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddInside method" Url="html/485aea5e-263f-56f2-0690-4d48ae88d418.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddLeftLike method" Url="html/2e0eaf53-3c3a-6b5a-59fc-a57169b5bbe7.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddLessThan method" Url="html/f36e0423-4bc4-8b7f-d83f-4a3df67a1f14.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddLessThanOrEqual method" Url="html/1c4335b1-79e3-5a79-1d43-f0d853d6ffd5.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddLike method" Url="html/33f1ccac-58af-7c68-d9a7-a54d07a5e796.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotBetween method" Url="html/b453238a-1f17-d4f9-4765-cf41ae83b974.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotEqual method" Url="html/848784dd-7568-bfe6-e228-36202ae8153e.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotInside method" Url="html/962b38bc-c622-c321-13e1-92f7522b38b8.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotLeftLike method" Url="html/957ed603-a99f-ae56-764f-dc246dde49c5.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotLike method" Url="html/247c30f6-ca62-235b-3a20-6a4f61375caa.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddNotRightLike method" Url="html/811c0444-6f3f-37c4-dd0d-dc4316c1c712.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.AddRightLike method" Url="html/97815a8c-8596-a6cf-93d4-38146d4d4538.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.NativeObject property" Url="html/e2c94f9c-69bd-2158-c329-32e9af4f9d69.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPart.WorklightJSONStoreQueryPart constructor" Url="html/2c0ebe91-0f60-2a75-dba6-f07b3483cfdd.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid class">
+    <HelpKINode Title="WorklightJSONStoreQueryPartAndroid Class" Url="html/a78d622d-c569-5179-fdd1-1d893ee7e22b.htm" />
+    <HelpKINode Title="about WorklightJSONStoreQueryPartAndroid class" Url="html/a78d622d-c569-5179-fdd1-1d893ee7e22b.htm" />
+    <HelpKINode Title="constructor" Url="html/17718bf1-693f-3c86-03df-ae0c2aed4f09.htm" />
+    <HelpKINode Title="methods" Url="html/809c9473-ccee-4e09-f89a-465ef01a2cd4.htm" />
+    <HelpKINode Title="properties" Url="html/d7ce3b41-01e8-20ad-373b-627edce7acf1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddBetween method" Url="html/9b0dcc27-1183-bd54-90f8-ff6bda0ce907.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddEqual method" Url="html/3c5a88cd-f8e6-8f89-7886-4cc1ce4fff5a.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddGreaterThan method" Url="html/1fb9a921-8d99-2f8d-1bea-f2d3a717f4dc.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddGreaterThanOrEqual method" Url="html/912f0a8e-be33-b19a-3baf-01921c7525f0.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddInside method" Url="html/26e5d643-210e-02f5-0849-9b695a2d2e7f.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLeftLike method" Url="html/7d24d89e-360d-1db3-cd7b-c0adf993fe1e.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLessThan method" Url="html/26b244e1-577f-9427-c7db-674012a07fe3.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLessThanOrEqual method" Url="html/5f2848fb-62f3-c74d-d84d-7c0e5e0ed5b9.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddLike method" Url="html/fd8dad1e-0efc-7978-912c-2fc817c1407a.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotBetween method" Url="html/bcc0d223-2e57-01d2-5ce2-85307050e267.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotEqual method" Url="html/27612b03-a20e-7964-5815-61627e4fd471.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotInside method" Url="html/31b351a1-ce7b-74bf-2d43-ece91913bf78.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotLeftLike method" Url="html/6aec25c2-8c92-2e1e-0169-9ffbc522cccf.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotLike method" Url="html/573ce729-aa57-ca4a-1ced-6d3b0f4f5f4a.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddNotRightLike method" Url="html/63c4bf3c-9950-eba6-9b6d-0861e3dfac0f.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.AddRightLike method" Url="html/66591186-7b86-577b-343b-684b30cdc3ba.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.NativeObject property" Url="html/f70d81db-d52e-da98-a412-826075bec6e6.htm" />
+  <HelpKINode Title="WorklightJSONStoreQueryPartAndroid.WorklightJSONStoreQueryPartAndroid constructor" Url="html/17718bf1-693f-3c86-03df-ae0c2aed4f09.htm" />
+  <HelpKINode Title="WorklightJSONStoreSearchFieldType enumeration" Url="html/8bdc109e-7241-618f-1bcd-3824a157cb88.htm" />
+  <HelpKINode Title="WorklightJSONStoreService class">
+    <HelpKINode Title="WorklightJSONStoreService Class" Url="html/a55a7da9-0542-52aa-71cd-fda8c50a8397.htm" />
+    <HelpKINode Title="about WorklightJSONStoreService class" Url="html/a55a7da9-0542-52aa-71cd-fda8c50a8397.htm" />
+    <HelpKINode Title="constructor" Url="html/cc10848f-8c1b-ea9f-a545-3471349e8fc2.htm" />
+    <HelpKINode Title="methods" Url="html/d88195e0-b670-578e-acfa-3ea115863ef6.htm" />
+    <HelpKINode Title="properties" Url="html/0e628b59-293b-b8b0-f916-59fe73241c2a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightJSONStoreService.JSONStore property" Url="html/5836757c-995a-1a64-e2e1-e03430e9762e.htm" />
+  <HelpKINode Title="WorklightJSONStoreService.JSONStoreAddOptions method" Url="html/a1ae09f0-a55f-50fa-f099-ded97047725f.htm" />
+  <HelpKINode Title="WorklightJSONStoreService.JSONStoreChangeOptions method" Url="html/c7387d35-3220-e41f-f4dc-0b21281ff8dd.htm" />
+  <HelpKINode Title="WorklightJSONStoreService.JSONStoreCollection method" Url="html/ae0919ed-99b0-336d-bd77-0f30b5f3da56.htm" />
+  <HelpKINode Title="WorklightJSONStoreService.JSONStoreFindOptions method" Url="html/d3e59c58-ddc6-b767-8fb2-d4f42f163f60.htm" />
+  <HelpKINode Title="WorklightJSONStoreService.JSONStoreOpenOptions method" Url="html/7a418f71-7ca3-7966-7c5c-e152b6a50173.htm" />
+  <HelpKINode Title="WorklightJSONStoreService.JSONStoreQueryPart method" Url="html/0e51a8ab-ac40-1522-ec12-081d47782028.htm" />
+  <HelpKINode Title="WorklightJSONStoreService.WorklightJSONStoreService constructor" Url="html/cc10848f-8c1b-ea9f-a545-3471349e8fc2.htm" />
+  <HelpKINode Title="WorklightLogger class">
+    <HelpKINode Title="WorklightLogger Class" Url="html/6a8d76e6-e806-f9e6-6ca8-7143ca7d3312.htm" />
+    <HelpKINode Title="about WorklightLogger class" Url="html/6a8d76e6-e806-f9e6-6ca8-7143ca7d3312.htm" />
+    <HelpKINode Title="constructor" Url="html/e7a5d8ad-3e3f-6c3f-51e7-b3989d391f9f.htm" />
+    <HelpKINode Title="methods" Url="html/b1b89e5a-ac19-fa81-ec1a-bfde83136ebe.htm" />
+    <HelpKINode Title="properties" Url="html/6b8af240-f143-1362-c714-b8c8db0c0e5b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightLogger.Debug method" Url="html/770cb378-3fa7-8551-aefe-e182655abe13.htm" />
+  <HelpKINode Title="WorklightLogger.Error method" Url="html/8cc96f13-c90e-4032-c28e-f7ba4f87734f.htm" />
+  <HelpKINode Title="WorklightLogger.Fatal method" Url="html/805ea873-3e8a-f0f8-f89c-3a8cf5cefbd8.htm" />
+  <HelpKINode Title="WorklightLogger.Info method" Url="html/dc65443a-d18d-9376-a7ba-bac7cb0b0464.htm" />
+  <HelpKINode Title="WorklightLogger.isUncaughtExceptionDetected method" Url="html/ef1dbd84-2e38-d058-aa75-eae4b1ae2686.htm" />
+  <HelpKINode Title="WorklightLogger.Log method" Url="html/6c0c82f6-6432-8822-240c-e04d733273a6.htm" />
+  <HelpKINode Title="WorklightLogger.LogCapture property" Url="html/3c166aac-c03c-58a9-77d6-cd4118b926d9.htm" />
+  <HelpKINode Title="WorklightLogger.LogFilters property" Url="html/416fd62f-6c5e-d9b6-e9be-bef6b40af9cb.htm" />
+  <HelpKINode Title="WorklightLogger.LogLevel property" Url="html/908606de-39c5-922f-7596-7d9ad601de4d.htm" />
+  <HelpKINode Title="WorklightLogger.MaxFileSize property" Url="html/68b83778-9476-255f-d778-92a5e1d9edd5.htm" />
+  <HelpKINode Title="WorklightLogger.Send method" Url="html/d5915c12-c434-2507-a859-4fa2a31b7c8f.htm" />
+  <HelpKINode Title="WorklightLogger.setAutoSendLogs method" Url="html/9c034a1e-00f3-b2af-9641-d8b3409f8ca5.htm" />
+  <HelpKINode Title="WorklightLogger.setAutoUpdateConfigFromServer method" Url="html/dc7c3185-8782-454e-a0a2-50dc146b7cdb.htm" />
+  <HelpKINode Title="WorklightLogger.Trace method" Url="html/c497e2e4-bfcf-f62e-73b4-ce23ca843598.htm" />
+  <HelpKINode Title="WorklightLogger.Warn method" Url="html/d045e101-aeb1-de1b-7b91-9d18839cd767.htm" />
+  <HelpKINode Title="WorklightLogger.WorklightLogger constructor" Url="html/e7a5d8ad-3e3f-6c3f-51e7-b3989d391f9f.htm" />
+  <HelpKINode Title="WorklightNotificationEventArgs class">
+    <HelpKINode Title="WorklightNotificationEventArgs Class" Url="html/caaf1380-1ca8-79a6-5da9-b449fde5f30e.htm" />
+    <HelpKINode Title="about WorklightNotificationEventArgs class" Url="html/caaf1380-1ca8-79a6-5da9-b449fde5f30e.htm" />
+    <HelpKINode Title="constructor" Url="html/4fdcee6f-e50f-1545-97cc-23b6be003b22.htm" />
+    <HelpKINode Title="methods" Url="html/8f15ec25-cd72-6d0b-bc21-479d5ffe3907.htm" />
+    <HelpKINode Title="properties" Url="html/3605b12b-79a7-1e16-c7b3-d994e9657e3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightNotificationEventArgs.NotificationPayload property" Url="html/3cb4c61f-220a-1b87-6d66-2a11b53bd39e.htm" />
+  <HelpKINode Title="WorklightNotificationEventArgs.NotificationProperties property" Url="html/35bd9e41-7fd0-5346-2f50-255dde599e69.htm" />
+  <HelpKINode Title="WorklightNotificationEventArgs.WorklightNotificationEventArgs constructor" Url="html/4fdcee6f-e50f-1545-97cc-23b6be003b22.htm" />
+  <HelpKINode Title="WorklightProcedureInvocationData class">
+    <HelpKINode Title="WorklightProcedureInvocationData Class" Url="html/236949ab-8f57-43bf-d965-1a8115f9b0b1.htm" />
+    <HelpKINode Title="about WorklightProcedureInvocationData class" Url="html/236949ab-8f57-43bf-d965-1a8115f9b0b1.htm" />
+    <HelpKINode Title="constructor" Url="html/992c4280-d8ff-5e18-b538-422a3f9404b2.htm" />
+    <HelpKINode Title="methods" Url="html/150cc0f9-5046-9616-e1c4-6d2b6c702309.htm" />
+    <HelpKINode Title="properties" Url="html/a60c347e-09f7-48e2-a316-ac1afd608fdb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightProcedureInvocationData.AdapterName property" Url="html/aa211471-eb5f-4200-97a0-17a9bdf63a1a.htm" />
+  <HelpKINode Title="WorklightProcedureInvocationData.CompressResponse property" Url="html/0796bf52-3c96-45ff-beed-c4bc00778eb4.htm" />
+  <HelpKINode Title="WorklightProcedureInvocationData.Parameters property" Url="html/6c4c1dbe-9bc0-2886-d15c-86336013df6d.htm" />
+  <HelpKINode Title="WorklightProcedureInvocationData.ProcedureName property" Url="html/12eb7e6c-535d-a1d9-45ff-23d64be6ec16.htm" />
+  <HelpKINode Title="WorklightProcedureInvocationData.WorklightProcedureInvocationData constructor" Url="html/992c4280-d8ff-5e18-b538-422a3f9404b2.htm" />
+  <HelpKINode Title="WorklightProcedureInvocationResult class">
+    <HelpKINode Title="WorklightProcedureInvocationResult Class" Url="html/abc98083-81f5-98e2-0c13-e598fc271404.htm" />
+    <HelpKINode Title="about WorklightProcedureInvocationResult class" Url="html/abc98083-81f5-98e2-0c13-e598fc271404.htm" />
+    <HelpKINode Title="constructor" Url="html/702b9266-5d47-7404-6962-419b957f92c3.htm" />
+    <HelpKINode Title="methods" Url="html/7ca2d210-1fbc-c461-68d6-42ba4a1ea924.htm" />
+    <HelpKINode Title="properties" Url="html/85155ff2-6a2e-c8b2-18e8-606f43e45c48.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightProcedureInvocationResult.GetResult method" Url="html/19eca299-10ea-a537-c020-aa53b84e458e.htm" />
+  <HelpKINode Title="WorklightProcedureInvocationResult.WorklightProcedureInvocationResult constructor" Url="html/702b9266-5d47-7404-6962-419b957f92c3.htm" />
+  <HelpKINode Title="WorklightPushNotificationListener interface">
+    <HelpKINode Title="WorklightPushNotificationListener Interface" Url="html/31a5895d-cbb6-523b-b6fe-7678c9d2db5c.htm" />
+    <HelpKINode Title="about WorklightPushNotificationListener interface" Url="html/31a5895d-cbb6-523b-b6fe-7678c9d2db5c.htm" />
+    <HelpKINode Title="methods" Url="html/a3a1c53a-8cf3-7e5f-79fb-491cb3eed1c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightPushNotificationListener.OnMessage method" Url="html/52e50900-3a36-6162-4ce5-39bf3cfdbfec.htm" />
+  <HelpKINode Title="WorklightPushService class">
+    <HelpKINode Title="WorklightPushService Class" Url="html/4b8acbf1-c489-7fd0-1e95-d6c075cb4c50.htm" />
+    <HelpKINode Title="about WorklightPushService class" Url="html/4b8acbf1-c489-7fd0-1e95-d6c075cb4c50.htm" />
+    <HelpKINode Title="constructor" Url="html/2a652bee-38a3-3365-a438-ecb720dc8455.htm" />
+    <HelpKINode Title="events" Url="html/47aa4b72-ae1c-6cbf-6146-9377ec8f1fa6.htm" />
+    <HelpKINode Title="methods" Url="html/1538db01-4626-080f-b511-cfc491542bbb.htm" />
+    <HelpKINode Title="properties" Url="html/fe35cea9-8111-be7b-cb27-70eba4f24923.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightPushService.Foreground property" Url="html/aad9d8d2-3998-ab0b-11d4-cae183110454.htm" />
+  <HelpKINode Title="WorklightPushService.InitRegistration method" Url="html/1983b211-6b90-ce78-5635-9c24a59b76e9.htm" />
+  <HelpKINode Title="WorklightPushService.IsAliasSubscribed method" Url="html/18114bec-09e7-5df3-51b3-75107e84ea74.htm" />
+  <HelpKINode Title="WorklightPushService.IsPushSupported property" Url="html/e086e04d-28cd-b07d-a6f6-f8fb72c879ea.htm" />
+  <HelpKINode Title="WorklightPushService.IsTagSubscribed method" Url="html/2038d0a3-e763-66d5-9ec5-b1ca2e4bf2b9.htm" />
+  <HelpKINode Title="WorklightPushService.Notification event" Url="html/456f3669-1458-62b3-fab4-83915a33116d.htm" />
+  <HelpKINode Title="WorklightPushService.ReadyToSubscribe event" Url="html/cf1c4b3a-e807-8d07-d05c-d9cd6bf175e7.htm" />
+  <HelpKINode Title="WorklightPushService.RegisterEventSourceNotificationCallback method" Url="html/f859d455-c9ae-958f-a871-48273ac9d0bc.htm" />
+  <HelpKINode Title="WorklightPushService.SubscribeToEventSource method" Url="html/7944553d-f80c-36aa-1a9a-a46c312493bc.htm" />
+  <HelpKINode Title="WorklightPushService.SubscribeToTag method" Url="html/e09a120a-dfb3-89d8-d64e-af84272c5c5c.htm" />
+  <HelpKINode Title="WorklightPushService.UnregisterReceivers method" Url="html/2e64126c-4e4a-6e12-3b18-56eb6f58030f.htm" />
+  <HelpKINode Title="WorklightPushService.UnsubscribeFromEventSource method" Url="html/3e3a17b7-2182-3b5a-09d9-55e002482aa7.htm" />
+  <HelpKINode Title="WorklightPushService.UnsubscribeFromTag method" Url="html/60026e1c-1297-983a-fccb-91f23e097171.htm" />
+  <HelpKINode Title="WorklightPushService.WorklightNotificationEventHandler delegate" Url="html/a3e436d7-51b3-3d81-6092-afec6c611560.htm" />
+  <HelpKINode Title="WorklightPushService.WorklightPushService constructor" Url="html/2a652bee-38a3-3365-a438-ecb720dc8455.htm" />
+  <HelpKINode Title="WorklightRequestOptions class">
+    <HelpKINode Title="WorklightRequestOptions Class" Url="html/a06aafbe-61a8-e009-b91d-dcf964fc8715.htm" />
+    <HelpKINode Title="about WorklightRequestOptions class" Url="html/a06aafbe-61a8-e009-b91d-dcf964fc8715.htm" />
+    <HelpKINode Title="constructor" Url="html/54d91ce5-f208-327e-ec20-61ad1e953719.htm" />
+    <HelpKINode Title="methods" Url="html/995eb997-e3cf-b344-955a-a836c7a88247.htm" />
+    <HelpKINode Title="properties" Url="html/9609ce16-1ac5-01dc-7eaa-0ceaa3a82a9d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightRequestOptions.InvocationContext property" Url="html/1710f909-e37e-9312-dd46-6eb5d15d7800.htm" />
+  <HelpKINode Title="WorklightRequestOptions.TimeOut property" Url="html/91ecf520-4d15-14ab-c60e-d0c54668997f.htm" />
+  <HelpKINode Title="WorklightRequestOptions.WorklightRequestOptions constructor" Url="html/54d91ce5-f208-327e-ec20-61ad1e953719.htm" />
+  <HelpKINode Title="WorklightResponse class">
+    <HelpKINode Title="WorklightResponse Class" Url="html/4a177ab5-3e81-09d9-ec9d-4fcfcc2fae22.htm" />
+    <HelpKINode Title="about WorklightResponse class" Url="html/4a177ab5-3e81-09d9-ec9d-4fcfcc2fae22.htm" />
+    <HelpKINode Title="constructor" Url="html/ce1dd833-e821-feb8-73d4-a0ab0ee2457a.htm" />
+    <HelpKINode Title="methods" Url="html/80ae6979-aadb-ade6-0496-3c8052d15c5f.htm" />
+    <HelpKINode Title="properties" Url="html/4a2cfbe0-967e-74fd-7462-edaf5f3f4d3b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WorklightResponse.HTTPStatus property" Url="html/a7af2678-bcac-dea8-d0d0-fd5c39157760.htm" />
+  <HelpKINode Title="WorklightResponse.Message property" Url="html/1f4ee03e-87da-2580-18a4-339335788634.htm" />
+  <HelpKINode Title="WorklightResponse.ResponseJSON property" Url="html/00a0a71a-7e7a-89a7-6adc-ebffd9070927.htm" />
+  <HelpKINode Title="WorklightResponse.ResponseText property" Url="html/245f456d-cbb7-22f4-99ef-4488a9638238.htm" />
+  <HelpKINode Title="WorklightResponse.Success property" Url="html/3f23d42a-32ad-de65-4675-9c323a704c9b.htm" />
+  <HelpKINode Title="WorklightResponse.WorklightResponse constructor" Url="html/ce1dd833-e821-feb8-73d4-a0ab0ee2457a.htm" />
+</HelpKI>

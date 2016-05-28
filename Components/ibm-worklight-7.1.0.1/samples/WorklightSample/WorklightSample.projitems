@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{6D9B7318-FC5A-4A96-9740-1D8BAF49663C}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>WorklightSample</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SampleClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Color.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\CommandItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\ResultPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\CommandCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\CustomChallengeHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\NotificationListener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\WorklightResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HomePage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Data\" />
+  </ItemGroup>
+</Project>

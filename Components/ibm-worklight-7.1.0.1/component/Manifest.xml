@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="ibm-worklight">
+  <name>IBM MobileFirst SDK</name>
+  <publisher>IBM</publisher>
+  <publisher-url>https://developer.ibm.com/mobilefirstplatform/</publisher-url>
+  <version>7.1.0.1</version>
+  <summary>Integrate your Xamarin apps with IBM MobileFirst Platform.</summary>
+  <samples>
+    <sample id="WorklightSample">
+      <name>Worklight Sample</name>
+      <summary>Worklight Sample</summary>
+    </sample>
+  </samples>
+</component>

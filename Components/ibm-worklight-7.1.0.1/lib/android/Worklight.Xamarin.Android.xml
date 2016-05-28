@@ -1,0 +1,1440 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Worklight.Xamarin.Android</name>
+    </assembly>
+    <members>
+        <member name="P:Worklight.WorklightJSONStoreChangeOptions.SearchFieldCriteria">
+            <summary>
+            Gets or sets a search field to the criteria. This appends to an existing list of criteria and can be called multiple times.
+            </summary>
+            <value>The search field criteria.</value>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreChangeOptions.MarkDirty">
+            <summary>
+            Enable or disable the mark dirty flag.
+            </summary>
+            <value><c>true</c> if the document that is added will be marked dirty when it is added.; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreChangeOptions.AddNew">
+            <summary>
+            Enable or disable if the document should be added if a previously stored document could not be found.
+            </summary>
+            <value><c>true</c> if the document will be added if a match could not be found in the collection.; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreChangeOptions.AddSearchFieldToCriteria(System.String)">
+            <summary>
+            Adds the search field to criteria.
+            </summary>
+            <param name="searchField">Search field.</param>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreAddOptions.MarkDirty">
+            <summary>
+            Enable or disable the mark dirty flag.
+            </summary>
+            <value><c>true</c> The document that is added will be marked dirty when it is added.; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreAddOptions.AddAdditionalSearchFields(System.Json.JsonObject)">
+            <summary>
+            Adds the additional search fields for add operations.
+            </summary>
+            <param name="searchFields">Search fields as a name, value pair.</param>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreFindOptions.Limit">
+            <summary>
+            Gets or sets the limit of the maximum number of results to be returned
+            </summary>
+            <value>The limit.</value>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreFindOptions.Offset">
+            <summary>
+            Gets or sets the offset of which results will begin..
+            </summary>
+            <value>The index at where the documents returned will begin..</value>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreFindOptions.SortBySearchFieldAscending(System.String)">
+            <summary>
+            Add a new search field by which the results will be sorted. 
+            The search field will sort the results in a ascending manner against the search field. 
+            Note that it will be sorted in the order that they were added. For example, if you add searchField1 and then searchField2, 
+            it will sort according to searchField1, and then any ties will be sorted according to searchField2.
+            </summary>
+            <param name="searchField">Search field.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreFindOptions.SortBySearchFieldDescending(System.String)">
+            <summary>
+            Add a new search field by which the results will be sorted. 
+            The search field will sort the results in a descending manner against the search field. 
+            Note that it will be sorted in the order that they were added. For example, if you add searchField1 and then searchField2, 
+            it will sort according to searchField1, and then any ties will be sorted according to searchField2.
+            </summary>
+            <param name="searchField">Search field.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreFindOptions.FilterSearchField(System.String)">
+            <summary>
+            Add a search filter to the existing list of search fields.
+            </summary>
+            <param name="searchField">Search field.</param>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreOpenOptions.Username">
+            <summary>
+            Gets or sets the username to be used for the JSONStore.
+            </summary>
+            <value>The username.</value>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreOpenOptions.Password">
+            <summary>
+            Gets or sets the password to be used for the JSONStore.
+            </summary>
+            <value>The password.</value>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreOpenOptions.SecureRandom">
+            <summary>
+            Gets or sets the secure randomstring to be used by security artifacts.
+            </summary>
+            <value>The secure random.</value>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreOpenOptions.IsAnalyticsEnabled">
+            <summary>
+            Gets or sets a value indicating whether analytics is enabled for this instance of JSONStore.
+            </summary>
+            <value><c>true</c> if this instance is analytics enabled; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="T:Worklight.WorklightResponse">
+            <summary>
+            This class contains the result of a procedure invocation. 
+            </summary>
+            
+        </member>
+        <member name="P:Worklight.WorklightResponse.Success">
+            <summary>
+            Is the response from the server a success or a failure.
+            </summary>
+            
+        </member>
+        <member name="P:Worklight.WorklightResponse.Message">
+            <summary>
+            This method returns an error message that is for the developer, and not necessarily suitable for the user. Particularly useful
+            in case of failure. In case of Success you may not get any message.
+            </summary>
+            
+        </member>
+        <member name="P:Worklight.WorklightResponse.ResponseJSON">
+            <summary>
+            The JSON object obtained from response text.
+            </summary>
+            
+        </member>
+        <member name="P:Worklight.WorklightResponse.ResponseText">
+            <summary>
+            This method retrieves the original response text from the server.
+            </summary>
+            
+        </member>
+        <member name="P:Worklight.WorklightResponse.HTTPStatus">
+             <summary>
+             This method retrieves the HTTP status from the response.
+             </summary>
+            
+        </member>
+        <member name="M:Worklight.WorklightResponse.#ctor(System.Boolean,System.String,System.Json.JsonObject,System.String,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Worklight.WorklightResponse"/> class.
+            </summary>
+            <param name="Success">If set to <c>true</c> success.</param>
+            <param name="Message">Message.</param>
+            <param name="ResponseJSON">Response JSON.</param>
+            <param name="ResponseText">Response text.</param>
+            <param name="HTTPStatus">HTTP status.</param>
+        </member>
+        <member name="T:Worklight.WorklightProcedureInvocationData">
+            <summary>
+            This class contains all necessary data to call a procedure. 
+            </summary>
+            
+        </member>
+        <member name="M:Worklight.WorklightProcedureInvocationData.#ctor(System.String,System.String,System.Object[])">
+            <summary>
+            Create a new object to send along with the procedure invocation request
+            </summary>
+            <param name="adapterName">The Name of the adapter to invoke</param>
+            <param name="procedureName">The name of the procedure in the adapter to invoke</param>
+            <param name="parameters">parameters An array of objects of primitive types ( String, Integer, Float, Boolean, Double). 
+            The order of the objects in the array is the order in which they are sent to the adapter.</param>
+        </member>
+        <member name="P:Worklight.WorklightProcedureInvocationData.AdapterName">
+            <summary>
+            Name of the adapter being invoked
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightProcedureInvocationData.ProcedureName">
+            <summary>
+            Name of the procedure in the adapter being invoked
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightProcedureInvocationData.Parameters">
+            <summary>
+            Procedure invocation parameters
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightProcedureInvocationData.CompressResponse">
+            <summary>
+            Enable or disable compression of the response data
+            </summary>
+        </member>
+        <member name="T:Worklight.IWorklightClient">
+            <summary>
+            This interface exposes methods that you use to communicate with the Worklight Server.
+            <remarks> 
+            You must get a platform specific instance using either 
+            Worklight.Xamarin.Android.WLClient.getInstance() or 
+            Worklight.Xamarin.iOS.WLClient.getInstance()
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:Worklight.IWorklightClient.Connect">
+            <summary>
+            This method sends an initialization request to the Worklight Server, establishes a connection with the server, 
+            and validates the application version.
+            <remarks> 
+            Important: You must call this method before any other WLClient methods that communicate with the Worklight Server.
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:Worklight.IWorklightClient.Connect(System.Int32)">
+            <summary>
+            This method sends an initialization request to the Worklight Server, establishes a connection with the server, 
+            and validates the application version.
+            <remarks> 
+            Important: You must call this method before any other WLClient methods that communicate with the Worklight Server.
+            </remarks>
+            </summary>
+            <param name="timeOut">Time out.</param>
+        </member>
+        <member name="M:Worklight.IWorklightClient.LogActivity(System.String)">
+            <summary>
+            Logs a activity to the server.
+            </summary>
+            <param name="activity">Activity description.</param>
+        </member>
+        <member name="M:Worklight.IWorklightClient.InvokeProcedure(Worklight.WorklightProcedureInvocationData)">
+            <summary>
+            This method sends an asynchronous call to an adapter procedure. The return status and the return data is availavle
+            in the WorklightResponse object returned.
+            </summary>
+            <returns>The WorklightResponse.</returns>
+            <param name="data">Data.</param>
+        </member>
+        <member name="M:Worklight.IWorklightClient.InvokeProcedure(Worklight.WorklightProcedureInvocationData,System.Int32)">
+            <summary>
+            This method sends an asynchronous call to an adapter procedure. The return status and the return data is availavle
+            in the WorklightResponse object returned.
+            </summary>
+            <returns>The WorklightResponse.</returns>
+            <param name="data">Data.</param>
+            <param name="timeOut">Time out.</param>
+        </member>
+        <member name="P:Worklight.IWorklightClient.HeartBeatInterval">
+            <summary>
+            Interval, in seconds, at which the Worklight Server sends the heartbeat signal. 
+            You use the heartbeat signal to ensure that the session with the server is kept alive when the app does not issue any call to the server, 
+            such as invokeProcedure. By default, the interval is set to 20 minutes.
+            </summary>
+        </member>
+        <member name="P:Worklight.IWorklightClient.ServerUrl">
+            <summary>
+            Gets or sets the Mobile First server URL.
+            </summary>
+            <value>The server URL.</value>
+        </member>
+        <member name="M:Worklight.IWorklightClient.RegisterChallengeHandler(Worklight.ChallengeHandler)">
+            <summary>
+            You can use this method to register a Challenge Handler in the client. 
+            You must use this method when you implement custom challenge handlers, or when you customize the Remote Disable / Notify Challenge Handler.
+            Important: you must call this method at the beginning of your application after you initialize WLClient.
+            </summary>
+            <param name="challengeHandler">The custom challenge handler instance</param>
+        </member>
+        <member name="P:Worklight.IWorklightClient.CookieStore">
+            <summary>
+            Retrieves the CookieContainer with cookies that are used when communicating with the server
+            </summary>
+            <value>The CookieContainer object.</value>
+        </member>
+        <member name="P:Worklight.IWorklightClient.AllowHTTPClientCircularRedirect">
+            <summary>
+            Allow circular redirect for the HTTP client
+            </summary>
+            <value><c>true</c> if HTTP client circular redirect must be allowed; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:Worklight.IWorklightClient.Login(System.String,Worklight.WorklightRequestOptions)">
+            <summary>
+            This method triggers log-in into a specific realm. If user authentication is required, the MobileFirst server will return a set of challenges that should be handled 
+            by challenge handlers. It is an asynchronous function. You must specify the realm name. Use a WorklightRequestOptions instance and its setTimeout method 
+            in order to specify the number of milliseconds to wait for the server to respond before the request times out.
+            </summary>
+            <param name="realm">Realm name to log into</param>
+            <param name="requestOptions">The WorklightRequestOptions instance</param>
+            <returns>The WorklightResponse from the MFP server </returns>
+        </member>
+        <member name="M:Worklight.IWorklightClient.Logout(System.String,Worklight.WorklightRequestOptions)">
+            <summary>
+            This method logs out of a specific realm. You must specify the realm name. Use a WorklightRequestOptions instance and its setTimeout method 
+            in order to specify the number of milliseconds to wait for the server to respond before the request times out.
+            </summary>
+            <param name="realm">Realm name to logout from</param>
+            <param name="requestOptions">The WorklightRequestOptions instance</param>
+            <returns>The WorklightResponse from the MobileFirst server</returns>
+        </member>
+        <member name="M:Worklight.IWorklightClient.PinTrustedCertificatePublicKey(System.String)">
+            <summary>
+            Pins the host X509 certificate public key to the client application. Secured calls to the pinned remote host will be checked for a public key match. 
+            Secured calls to other hosts containing other certificates will be rejected. Some mobile operating systems might cache the certificate validation 
+            check results. Your app must call the certificate pinning method before making a secured request. Calling this method a second time overrides any 
+            previous pinning operation.
+            </summary>
+            <param name="certificateFileName">Path to the certificate under the assets folder.</param>
+        </member>
+        <member name="M:Worklight.IWorklightClient.AddGlobalHeader(System.String,System.String)">
+            <summary>
+            You use this method to add a global header, which is sent on each request.
+            </summary>
+            <param name="headerName"> Name of the header.</param>
+            <param name="value">Value of the header.</param>
+        </member>
+        <member name="M:Worklight.IWorklightClient.RemoveGlobalHeader(System.String)">
+            <summary>
+            You use this method to remove a global header. Then, the header is no longer sent on each request.
+            </summary>
+            <param name="headerName">Name of the header.</param>
+        </member>
+        <member name="P:Worklight.IWorklightClient.Analytics">
+            <summary>
+            Provides a handle to the Analytics capabilities of Worklight Server
+            </summary>
+        </member>
+        <member name="P:Worklight.IWorklightClient.PushService">
+            <summary>
+            Gives you a handle to the Worklight push service.
+            </summary>
+        </member>
+        <member name="M:Worklight.IWorklightClient.Logger(System.String)">
+            <summary>
+            Provides a handle to the Client Logging capabilities of Worklight Server
+            </summary>
+        </member>
+        <member name="P:Worklight.IWorklightClient.JSONStoreService">
+            <summary>
+            Provides a handle to the JSONStore service of Worklight
+            </summary>
+            <value>The JSON store service.</value>
+        </member>
+        <member name="P:Worklight.IWorklightClient.AuthorizationManager">
+            <summary>
+            Provides a handle to the Authorization Manager 
+            </summary>
+            <value>The WorklightAuthorizationManager object.</value>
+        </member>
+        <member name="M:Worklight.IWorklightClient.ResourceRequest(System.Uri,System.String)">
+            <summary>
+            Constructs a new resource request with the specified URL, using the specified HTTP method
+            </summary>
+            <returns>The WorklightResourceRequest object.</returns>
+            <param name="uri">The resource URL, it can be either relative or absolute.</param>
+            <param name="method">The HTTP method to use.</param>
+        </member>
+        <member name="M:Worklight.IWorklightClient.ResourceRequest(System.Uri,System.String,System.Int32)">
+            <summary>
+            Constructs a new resource request with the specified URL, using the specified HTTP method
+            </summary>
+            <returns>The WorklightResourceRequest object.</returns>
+            <param name="uri">The resource URL, it can be either relative or absolute.</param>
+            <param name="method">The HTTP method to use.</param>
+            <param name="timeout">The timeout in milliseconds for this request.</param>
+        </member>
+        <member name="T:Worklight.AdapterAuthenticationInfo">
+            <summary>
+            This class contains properties required to invoke an adapter procedure on the Worklight server in response to a challenge on a realm protected by a 
+            AdapterAuthenticator. 
+            This is similar to the submitAdapterAuthentication method in Worklight Native API
+            </summary>
+        </member>
+        <member name="P:Worklight.AdapterAuthenticationInfo.InvocationData">
+            <summary>
+            The WorklightProcedureInvocationData object consisting of the adapter name and name of the procedure among other things. 
+            </summary>
+        </member>
+        <member name="F:Worklight.AdapterAuthenticationInfo.requestOptions">
+            <summary>
+            The request options.
+            </summary>
+        </member>
+        <member name="P:Worklight.AdapterAuthenticationInfo.RequestOptions">
+            <summary>
+            A WorklightRequestOptions object consisting of the following parameters
+            timeout – int: The time, in milliseconds, for this invokeProcedure to wait before it fails. The default timeout is 10,000 milliseconds. To disable the timeout, set this parameter to 0.
+            invocationContext – object: An object that is returned with WLResponse. You can use this object to distinguish different invokeProcedure calls.
+            </summary>
+        </member>
+        <member name="T:Worklight.ChallengeHandler">
+            <summary>
+            This is a base class you must implement to create your own custom Challenge Handlers. 
+            The custom Challenge Handler logic required to authenticate against a realm defined on the server must be written in your implementation.
+            </summary>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.HandleChallenge(Worklight.WorklightResponse)">
+            <summary>
+            This method is called whenever <see cref="M:Worklight.ChallengeHandler.IsCustomResponse(Worklight.WorklightResponse)"/> returns a true value. 
+            You must implement this method to handle the challenge logic, for example to display the login screen.
+            You can handle this for a particular security realm.
+            </summary>
+            <param name="challenge">The challenge that is presented by the server</param>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.IsCustomResponse(Worklight.WorklightResponse)">
+            <summary>
+            Override this method if you want to decide if <see cref="M:Worklight.ChallengeHandler.HandleChallenge(Worklight.WorklightResponse)"/> will be called.
+            Here you can parse the response from the Worklight server to determine whether or not your custom Challenge Handler will handle the challenge.
+            Worklight will then call the HandleChallenge method depending on the return value.
+            For example, in a realm protected by a AdapterAuthenticator, the response from the Worklight server might contain a JSON value of authRequired : true
+            </summary>
+            <param name="response">The response from the Worklight server which your implementation must parse</param>
+            <returns>true if the response is meant for your Challenge Handler, false otherwise. Default:true</returns>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.OnSuccess(Worklight.WorklightResponse)">
+            <summary>
+            Is called by the framework in case of a success
+            </summary>
+            <param name="challenge">Challenge.</param>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.OnFailure(Worklight.WorklightResponse)">
+            <summary>
+            Is called by the framework in case of a failure
+            </summary>
+            <param name="response">Response.</param>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.GetRealm">
+            <summary>
+            The realm defined on the server that your custom Challenge Handler will deal with.
+            </summary>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.ShouldSubmitSuccess">
+            <summary>
+            indicate if the auth attempt successful.
+            </summary>
+            <returns><c>true</c>, If the challengehendler deems the authentication a success, return a true, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.ShouldSubmitAdapterAuthentication">
+            <summary>
+            Override this if you want to 
+            Set this property to true in your implementation if the realm is protected by an AdapterAuthenticator.
+            When this property is set to true, Worklight will send a response back to the server calling an adapter procedure on the server.
+            The AdapterAuthenticationParameters property must be populated with the necessary information to make this adapter call.
+            Default: false
+            </summary>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.GetAdapterAuthenticationParameters">
+            <summary>
+            Override this if you want to 
+            Provide an AdapterAuthenticationInfo object with all the parameters required to call an adapter procedure on a Worklight server in response 
+            to a challenge on a realm protected by an AdapterAuthenticator.
+            </summary>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.ShouldSubmitLoginForm">
+             <summary>
+             Override this if you want to set this property to true in your implementation if the realm is protected by an FormBasedAuthenticator.
+             When this property is set to true, Worklight will send a response back to the server similar to submitting a form.
+             The LoginFormParameters property must be populated with the necessary information to submit the form. 
+             Default:false
+            
+             </summary>
+        </member>
+        <member name="M:Worklight.ChallengeHandler.GetLoginFormParameters">
+            <summary>
+            Override this if you want to provide an LoginFormInfo object with all the parameters required to submit a form in response 
+            to a challenge on a realm protected by an FormBasedAuthenticator.
+            </summary>
+        </member>
+        <member name="T:Worklight.LoginFormInfo">
+            <summary>
+            This class contains properties required to submit a login form to the server in response to a challenge on a realm protected by a 
+            FormBasedAuthenticator. 
+            This is similar to the submitLoginForm method in Worklight Native API
+            </summary>
+        </member>
+        <member name="P:Worklight.LoginFormInfo.Url">
+            <summary>
+            Absolute URL if the user sends an absolute url that starts with http:// or https:// Otherwise, URL relative to the Worklight Server
+            </summary>
+        </member>
+        <member name="P:Worklight.LoginFormInfo.RequestParameters">
+            <summary>
+            A Dictionary object consisting of request parameters to be included in the request made while submitting the form. 
+            </summary>
+        </member>
+        <member name="P:Worklight.LoginFormInfo.RequestHeaders">
+            <summary>
+            A Dictionary object consisting of additional headers to be included in the request made while submitting the form. 
+            </summary>
+        </member>
+        <member name="P:Worklight.LoginFormInfo.TimeOutInMs">
+            <summary>
+            The timeout value in milliseconds. The default is 10000 ms. To disable timeout, set this to 0.
+            </summary>
+        </member>
+        <member name="P:Worklight.LoginFormInfo.RequestMethod">
+            <summary>
+            The HTTP method that you must use. Acceptable values are GET, POST.The default value is POST.
+            </summary>
+        </member>
+        <member name="T:Worklight.WorklightPushNotificationListener">
+            <summary>
+            Worklight push notification listener.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightPushNotificationListener.OnMessage(System.Json.JsonObject,System.Json.JsonObject)">
+            <summary>
+            The Notification event.
+            </summary>
+            <param name="NotificationProperties">Notification properties.</param>
+            <param name="Payload">Payload.</param>
+        </member>
+        <member name="T:Worklight.WorklightPushService">
+            <summary>
+            Worklight push service.
+            This class contains all the methods required to work with Push notifications. You cannot instantiate this class directly. 
+            To get a reference to this class, use <see cref="P:Worklight.IWorklightClient.PushService"/>.
+            To enable Push notifications, you need to perform some setup specific to the App OS. Please see the documentation
+            sample for a detailed descriptiom
+            <remarks>
+            There is a difference in the behaviour in this API due to the inherent way Apple and Google implement the push notifications 
+            Android:
+            The activity lifecycle methods must be overridden as follows:
+            onDestroy() must call <see cref="M:Worklight.WorklightPushService.UnregisterReceivers">UnregisterReceivers()</see>of push instance to avoid receiver leak exception when the app exits.
+            onPause() must set <see cref="P:Worklight.WorklightPushService.Foreground">Foreground</see> to false of push instance to receive the notification in the notification bar when the app is paused.
+            onResume() must set <see cref="P:Worklight.WorklightPushService.Foreground">Foreground</see> to true of push instance to receive the notification in the callback of the app. 
+            iOS:
+            Notifications are directly delivered to the app via the didReceiveRemoteNotification callback on the AppDelegate.
+            Worklight events will not be raised.
+            </remarks>
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightPushService.IsPushSupported">
+            <summary>
+            Gets a value indicating whether push is supported on this device
+            </summary>
+            <value><c>true</c> if push issupported; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:Worklight.WorklightPushService.IsAliasSubscribed(System.String)">
+            <summary>
+            Determines whether this instance is alias subscribed the specified Alias.
+            </summary>
+            <returns><c>true</c> if this instance is alias subscribed the specified Alias; otherwise, <c>false</c>.</returns>
+            <param name="Alias">Alias.</param>
+        </member>
+        <member name="M:Worklight.WorklightPushService.IsTagSubscribed(System.String)">
+            <summary>
+            Determines whether this device is subscribed to the specified TagName.
+            </summary>
+            <returns><c>true</c> if this instance is tag subscribed the specified TagName; otherwise, <c>false</c>.</returns>
+            <param name="TagName">Tag name.</param>
+        </member>
+        <member name="P:Worklight.WorklightPushService.Foreground">
+            <summary>
+            Android Only: Gets or sets a value indicating whether this <see cref="T:Worklight.WorklightPushService"/> is foreground.
+            </summary>
+            <value><c>true</c> if foreground; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="M:Worklight.WorklightPushService.UnregisterReceivers">
+            <summary>
+            Android Only: This method unregisters the receivers that the notification framework set.
+            </summary>
+        </member>
+        <member name="E:Worklight.WorklightPushService.ReadyToSubscribe">
+            <summary>
+            Occurs when this device is ready to subscribe to Push Notifications.
+            </summary>
+        </member>
+        <member name="T:Worklight.WorklightPushService.WorklightNotificationEventHandler">
+            <summary>
+            Worklight notification event handler.
+            </summary>
+        </member>
+        <member name="E:Worklight.WorklightPushService.Notification">
+            <summary>
+            Android only: Occurs when a Broadcast or Tag based notification arrives
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightPushService.RegisterEventSourceNotificationCallback(System.String,System.String,System.String,Worklight.WorklightPushNotificationListener)">
+            <summary>
+            Android only: Registers the event source notification callback for a specified alias
+            This callback is called when a notification arrives for the specified EventSource
+            </summary>
+            <param name="Alias">Alias.</param>
+            <param name="AdapterName">Adapter name.</param>
+            <param name="EventSource">Event source.</param>
+            <param name="Listener">Listener.</param>
+        </member>
+        <member name="M:Worklight.WorklightPushService.InitRegistration">
+            <summary>
+            Starts the registration sequence with the push service (Android: GCM, iOS: APNS)
+            Sets the Ready To Subscribe listeners. Call this after setting a listener to <see cref="E:Worklight.WorklightPushService.ReadyToSubscribe"/>
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightPushService.SubscribeToEventSource(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            This method subscribes the user to the event source with the specified alias.
+            </summary>
+            <returns>The to event source.</returns>
+            <param name="Alias">Alias.</param>
+            <param name="SubscriptionParamaters">Subscription paramaters.</param>
+        </member>
+        <member name="M:Worklight.WorklightPushService.SubscribeToTag(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            subscribes the device to the tag.
+            </summary>
+            <returns>The result of the action</returns>
+            <param name="Tag">Tag.</param>
+            <param name="SubscriptionParamaters"> Optional. The custom subscription parameters that the event source in the adapter supports.</param>
+        </member>
+        <member name="M:Worklight.WorklightPushService.UnsubscribeFromEventSource(System.String)">
+            <summary>
+            Unsubscribe from event source.
+            </summary>
+            <returns>The subscribe from event source.</returns>
+            <param name="Alias">Alias.</param>
+        </member>
+        <member name="M:Worklight.WorklightPushService.UnsubscribeFromTag(System.String)">
+            <summary>
+            Unsubscribes from tag.
+            </summary>
+            <returns>The from tag.</returns>
+            <param name="Tag">Tag.</param>
+        </member>
+        <member name="T:Worklight.WorklightNotificationEventArgs">
+            <summary>
+            Worklight notification event arguments.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightNotificationEventArgs.NotificationProperties">
+            <summary>
+            A JSON block that contains the notifications properties of the platform.
+            </summary>
+            <value>The notification properties.</value>
+        </member>
+        <member name="P:Worklight.WorklightNotificationEventArgs.NotificationPayload">
+            <summary>
+            A JSON block that contains other data that is sent from the Worklight Server. 
+            It also contains the tag name for tag and broadcast notification. The tag name appears in the "tag" element. 
+            For broadcast notification, default tag name is Push.ALL.
+            </summary>
+            <value>The notification payload.</value>
+        </member>
+        <member name="M:Worklight.WorklightNotificationEventArgs.#ctor(System.Json.JsonObject,System.Json.JsonObject)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Worklight.WorklightNotificationEventArgs"/> class.
+            </summary>
+            <param name="props">Properties.</param>
+            <param name="payload">Payload.</param>
+        </member>
+        <member name="T:Worklight.WorklightAnalyticService">
+            <summary>
+            This interface exposes methods that you use to Log the data captured from to the Worklight Server.
+            <remarks> 
+            Get a instance of the service form the <see cref="T:Worklight.IWorklightClient"/> instance
+            </remarks>
+            </summary>
+            
+        </member>
+        <member name="M:Worklight.WorklightAnalyticService.Enable">
+            <summary>
+            This method enables capturing of analytics log data.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightAnalyticService.Disable">
+            <summary>
+            This method disables capturing of analytics log data.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightAnalyticService.Send">
+            <summary>
+            This method sends the log file when the log buffer exists and is not empty.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightAnalyticService.Log(System.String,System.Json.JsonObject)">
+            <summary>
+            This method logs analytics data.
+            </summary>
+            <param name="message">The message to be logged</param>
+            <param name="metadata">JSON Object containing metadata to append to the log output</param>
+        </member>
+        <member name="T:Worklight.LoggerLevel">
+            <summary>
+            Logger levels.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.ANALYTICS">
+            <summary>
+            ANALYTICS Level.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.DEBUG">
+            <summary>
+            DEBUG Level.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.ERROR">
+            <summary>
+            ERROR Level.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.FATAL">
+            <summary>
+            FATAL Level.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.INFO">
+            <summary>
+            INFO  Level.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.LOG">
+            <summary>
+            LOG Level.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.TRACE">
+            <summary>
+            TRACE Level.
+            </summary>
+        </member>
+        <member name="F:Worklight.LoggerLevel.WARN">
+            <summary>
+            WARN Level.
+            </summary>
+        </member>
+        <member name="T:Worklight.WorklightLogger">
+             <summary>
+             Worklight logger.
+             It provides a method call to send captured logs to the IBM Worklight server. 
+             When this Logger class's capture flag is turned on via setCapture(true) method call, 
+             all messages passed through this class's log methods will be persisted to a file.
+             
+             Log data is accumulated persistently to a log file until the file size is greater than max file size. 
+             At this point the log file is rolled over. Once both files are full, the oldest log data is pushed out to make room for new log data.
+            Log file data is sent to the IBM Worklight server when this class's send() method is called and the accumulated log size is greater than zero. 
+             When the log data is successfully uploaded, the persisted local log data is deleted. 
+             </summary>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Trace(System.String,System.Json.JsonObject)">
+            <summary>
+            Log the specified message and metadata.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="metadata">Metadata to append to the log output .</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Warn(System.String,System.Json.JsonObject)">
+            <summary>
+            Log the specified message and metadata.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="metadata">Metadata to append to the log output.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Debug(System.String,System.Json.JsonObject)">
+            <summary>
+            Log the specified message and metadata.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="metadata">Metadata to append to the log output.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Error(System.String,System.Json.JsonObject)">
+            <summary>
+            Log the specified message and metadata.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="metadata">Metadata to append to the log output.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Fatal(System.String,System.Json.JsonObject)">
+            <summary>
+            Log the specified message and metadata.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="metadata">Metadata to append to the log output.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Log(System.String,System.Json.JsonObject)">
+            <summary>
+            Log the specified message and metadata.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="metadata">Metadata to append to the log output.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Info(System.String,System.Json.JsonObject)">
+            <summary>
+            Log the specified message and metadata.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="metadata">Metadata to append to the log output.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.Send">
+            <summary>
+            Send the accumulated log data when the persistent log buffer exists and is not empty
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightLogger.LogCapture">
+            <summary>
+            Global setting: turn persisting of log data passed to this class's log methods on or off.
+            </summary>
+            <value><c>true</c> if log capture; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Worklight.WorklightLogger.LogFilters">
+            <summary>
+            Gets or sets the log filters.
+            Filter on packages at and above designated LEVEL
+            </summary>
+            <value>The log filters.</value>
+        </member>
+        <member name="P:Worklight.WorklightLogger.MaxFileSize">
+            <summary>
+            Gets or sets the size of size of the local log file
+            When the maximum file size is reached, no more data is appended. This file is sent to the server. 
+            </summary>
+            <value>The size of the max file.</value>
+        </member>
+        <member name="P:Worklight.WorklightLogger.LogLevel">
+             <summary>
+             Gets or sets the log level from which log messages must be saved and printed.
+            For example, passing INFO  will log INFO, WARN, and ERROR. 
+             </summary>
+             <value>The log level.</value>
+        </member>
+        <member name="M:Worklight.WorklightLogger.setAutoSendLogs(System.Boolean)">
+            <summary>
+            Global setting: turn automatic sending of log data to server on or off.
+            </summary>
+            <param name="flag">If set to <c>true</c> flag.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.setAutoUpdateConfigFromServer(System.Boolean)">
+            <summary>
+            Global setting: turn automatic retrieval of logger configuration from server on or off..
+            </summary>
+            <param name="flag">If set to <c>true</c> flag.</param>
+        </member>
+        <member name="M:Worklight.WorklightLogger.isUncaughtExceptionDetected">
+            <summary>
+            DEPRICATED. use send() instead
+            </summary>
+            <returns><c>true</c>, if uncaught exception detected was ised, <c>false</c> otherwise.</returns>
+        </member>
+        <member name="T:Worklight.WorklightJSONStore">
+            <summary>
+            This class is the public JSONStore API for Xamarin applications.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightJSONStore.NativeObject">
+            <summary>
+            This property provides a reference to the native WLJSONStore object
+            specific to each platform. 
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.OpenCollections(System.Collections.Generic.List{Worklight.WorklightJSONStoreCollection},Worklight.WorklightJSONStoreOpenOptions)">
+            <summary>
+            Provides access to the collections that are inside the store, and creates them if they do not already exist.
+            </summary>
+            <param name="collectionList">An array of collection definitions (WorklightJSONStoreCollection objects) 
+            that are to be initialized (either reopened or created).</param>
+            <param name="openOptions">Specific set of options to initialize the collection with (such as security credentials).</param>
+            <returns>true if the operation is successful; false otherwise</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.Destroy">
+            <summary>
+            Permanently deletes all data for all users, clears security artifacts, and removes accessors.
+            <returns>true if the operation is successful; false otherwise</returns>
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.DestroyWithUsername(System.String)">
+            <summary>
+            Permanently deletes all data for a particular user, clears security artifacts, and removes accessors.
+            <returns>true if the operation is successful; false otherwise</returns>
+            </summary>
+            <param name="username">The username</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.ChangePassword(System.String,System.String,System.String)">
+            <summary>
+            Change the password for the given user
+            </summary>
+            <param name="username">The username</param>
+            <param name="oldPassword">The old password</param>
+            <param name="newPassword">The new password</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.CloseAllCollections">
+            <summary>
+            Locks access to all the collections until the init method is called.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.CommitTransaction">
+            <summary>
+            Commit a transaction.
+            </summary>
+            <returns>true if the transaction finished successfully; false otherwise</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.GetCollectionByName(System.String)">
+            <summary>
+            Provides an accessor to the collection if the collection exists. 
+            This method depends on the init method being called first, with the requested collection name.
+            </summary>
+            <param name="name">The name of the initialized JSONStore collection to retrieve.</param>
+            <returns>A JSONStoreCollection object of an already initialized collection. 
+            Returns null if a collection by that name does not exist.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.GetFileInfo">
+            <summary>
+            Returns a list of objects with information about all the stores in the device. 
+            It contains the name of the store, the size, and whether they are encrypted or not.
+            </summary>
+            <returns>A Dictionary list that contains the file information.
+            Each Dictionary object contains 3 items - one each for the name of the store, size and 
+            whether the store is encrypted or not</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.RollbackTransaction">
+            <summary>
+            Roll back a transaction.
+            </summary>
+            <returns>true if the transaction rollback was successful; false otherwise</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStore.StartTransaction">
+            <summary>
+            Begin a new transaction. After starting the transaction, 
+            the following methods will not work until the transaction is committed or rolled back: 
+            open, destroy, closeAll, and removeCollection.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightJSONStore.IsAnalyticsEnabled">
+            <summary>
+            Enable or disable the collection of analytic data for JSONStore.
+            </summary>
+        </member>
+        <member name="T:Worklight.WorklightJSONStoreCollection">
+            <summary>
+            This class represents a single JSONStore collection. Operations on the collection can be done by using the API for this class.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreCollection.CollectionName">
+            <summary>
+            The name of the collection.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreCollection.NativeObject">
+            <summary>
+            This property provides a reference to the native JSONStoreCollection object
+            specific to each platform. 
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.AddData(System.Json.JsonArray,Worklight.WorklightJSONStoreAddOptions)">
+            <summary>
+            Add data and create a new document in the collection.
+            </summary>
+            <param name="dataArray">The data for a new document to be added to the collection. 
+            The document must contain search field keys.</param>
+            <param name="addOptions">Optional additional options to modify the add operation.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.ChangeData(System.Json.JsonArray,Worklight.WorklightJSONStoreChangeOptions)">
+            <summary>
+            Change a list of documents in the collection.
+            </summary>
+            <param name="dataArray">An array of data to update documents in the collection.</param>
+            <param name="changeOptions">Optional change options that are used to manipulate the change operation.</param>
+            <returns>The total number of documents that are changed or added.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.ClearCollection">
+            <summary>
+            Removes all documents from a collection, but does not destroy the collection.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.CountAllDirtyDocuments">
+            <summary>
+            Count the number of dirty documents in the collection.
+            </summary>
+            <returns>The number of dirty documents.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.CountAllDocuments">
+            <summary>
+            Count the number of documents in the collection.
+            </summary>
+            <returns>The total number of documents that are currently in the database that are not marked dirty.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.FindAllDocuments(Worklight.WorklightJSONStoreFindOptions)">
+            <summary>
+            Find all documents in the collection.
+            </summary>
+            <param name="findOptions">Optional additional options to modify the count operation.</param>
+            <returns>A JsonArray of documents in the collection.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.FindDocumentByID(System.Int32)">
+            <summary>
+            Find a document in the collection based on the given id.
+            </summary>
+            <param name="id">The unique id that is associated with a document in the database (the _id search field).</param>
+            <returns>The JsonObject that is associated with the document. Returns null if it is not found.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.FindDocumentsByID(System.Int32[])">
+            <summary>
+            Find documents in the collection that have the given ids.
+            </summary>
+            <param name="ids">An array of unique ids that are associated with a document in the database (the _id search field).</param>
+            <returns>All documents with the given ids that are present in the collection.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.MarkDocumentsClean(System.Json.JsonArray)">
+            <summary>
+            Mark an array of documents in the collection clean.
+            </summary>
+            <param name="documentsArray">An array of documents to clean in the collection.</param>
+            <returns>Returns the number of clean documents.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.ReplaceDocuments(System.Json.JsonArray,System.Boolean)">
+            <summary>
+            Replace a list of documents in the collection.
+            </summary>
+            <param name="dataArray">A JsonArray of objects that represent the documents to update in the collection. 
+            The document's '_id' is used to determine which document to replace. If all documents could not be updated, 
+            a rollback is performed to a state where no documents were updated.</param>
+            <param name="markDirty">Enable or disable the mark dirty flag.</param>
+            <returns>The number of replaced documents.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.RemoveCollection">
+            <summary>
+            Permanently deletes all the documents that are stored in a collection and destroys the collection.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreCollection.Reopened">
+            <summary>
+            Determine if the collection was reopened when it was initialized.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.RemoveDocumentsByID(System.Int32[],System.Boolean)">
+            <summary>
+            Remove list of documents from the collection that are based on the given ids.
+            </summary>
+            <param name="ids">An array of document ids.</param>
+            <param name="markDirty">Enable or disable the mark dirty flag.</param>
+            <returns>The number of documents that have been removed from the collection.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.CountWithQueryParts(Worklight.WorklightJSONStoreQueryPart[])">
+            <summary>
+            Count the number of documents in the collection that are based on the given query.
+            </summary>
+            <param name="queryParts"> The count query that limits the count scope.</param>
+            <returns>The total number of documents that are currently in the database that are not marked dirty.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreCollection.FindDocumentsWithQueryParts(Worklight.WorklightJSONStoreQueryPart[],Worklight.WorklightJSONStoreFindOptions)">
+            <summary>
+            Find documents in the collection that are based on the given query.
+            </summary>
+            <param name="queryParts">The find query that restricts the search.</param>
+            <param name="findOptions"> Additional options to modify the count operation.</param>
+            <returns>A JsonArray of documents.</returns>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreCollection.SearchFields">
+            <summary>
+            Property to get or set a Dictionary of search fields for the collection
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreCollection.AdditionalSearchFields">
+            <summary>
+            Property to get or set a Dictionary of additional search fields for the collection
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:Worklight.WorklightJSONStoreService" -->
+        <member name="P:Worklight.WorklightJSONStoreService.JSONStore">
+            <summary>
+            This method returns an instance of the <see cref="T:Worklight.WorklightJSONStore"/> object.
+            <remarks>You must first create </remarks>
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreService.JSONStoreCollection(System.String)">
+            <summary>
+            This method initializes and returns a <see cref="T:Worklight.WorklightJSONStoreCollection"/>.
+            </summary>
+            <param name="collectionName">The name of the collection.</param>
+            <returns>A WorklightJSONStoreCollection object on which further operations can be performed.</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreService.JSONStoreOpenOptions">
+            <summary>
+            This method creates a <see cref="T:Worklight.WorklightJSONStoreOpenOptions"/>
+            </summary>
+            <returns>The newly created <see cref="T:Worklight.WorklightJSONStoreOpenOptions"/> object</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreService.JSONStoreAddOptions">
+            <summary>
+            This method creates a <see cref="T:Worklight.WorklightJSONStoreAddOptions"/>
+            </summary>
+            <returns>The newly created <see cref="T:Worklight.WorklightJSONStoreAddOptions"/> object</returns>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreService.JSONStoreFindOptions">
+            <summary>
+            This method creates a <see cref="T:Worklight.WorklightJSONStoreFindOptions"/>
+            </summary>
+            <returns>The newly created <see cref="T:Worklight.WorklightJSONStoreFindOptions"/> object</returns>        
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreService.JSONStoreChangeOptions">
+            <summary>
+            This method creates a <see cref="T:Worklight.WorklightJSONStoreChangeOptions"/>
+            </summary>
+            <returns>The newly created <see cref="T:Worklight.WorklightJSONStoreChangeOptions"/> object</returns>        
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreService.JSONStoreQueryPart">
+            <summary>
+            This method creates a <see cref="T:Worklight.WorklightJSONStoreQueryPart"/>
+            </summary>
+            <returns>The newly created <see cref="T:Worklight.WorklightJSONStoreQueryPart"/> object</returns>        
+        </member>
+        <member name="T:Worklight.WorklightJSONStoreQueryPart">
+            <summary>
+            Represents a group of operations that are joined with an AND.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightJSONStoreQueryPart.NativeObject">
+            <summary>
+            This property provides a reference to the native JSONStoreQueryPart object
+            specific to each platform.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddBetween(System.String,System.Double,System.Double)">
+            <summary>
+            Add BETWEEN criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare start and end against with a BETWEEN statement.</param>
+            <param name="start">All documents that are returned must have the search field set to a number greater than or equal to this start.</param>
+            <param name="end">All documents that are returned must have the search field set to a number less than or equal to this end.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddEqual(System.String,System.String)">
+            <summary>
+            Add exact EQUAL criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with an exact EQUAL statement.</param>
+            <param name="val">Search field's value that must be exactly equal in the document.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddGreaterThan(System.String,System.Double)">
+            <summary>
+            Add GREATER THAN criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a GREATER THAN statement.</param>
+            <param name="val">All documents that are returned must have the search field set to a number greater than this val.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddGreaterThanOrEqual(System.String,System.Double)">
+            <summary>
+            Add GREATER THAN OR EQUAL criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a GREATER THAN OR EQUAL statement.</param>
+            <param name="val">All documents returned must have the search field set to a number greater than or equal to this val.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddInside(System.String,System.String[])">
+            <summary>
+            Add a INSIDE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare values against with a IN statement.</param>
+            <param name="values">An non-empty list of numbers, booleans, and/or strings. 
+            All matching documents match the search field to one of the values in the list.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddLeftLike(System.String,System.String)">
+            <summary>
+            Add LIKE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a LIKE statement.</param>
+            <param name="val">Search field's value for the LIKE criteria.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddLessThan(System.String,System.Double)">
+            <summary>
+            Add LESS THAN criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a LESS THAN statement.</param>
+            <param name="val">All documents that are returned must have the search field set to a number less than this val.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddLessThanOrEqual(System.String,System.Double)">
+            <summary>
+            Add LESS THAN OR EQUAL criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a LESS THAN OR EQUALS statement.</param>
+            <param name="val">All documents that are returned must have the search field set to a number less than or equal to this val.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddLike(System.String,System.String)">
+            <summary>
+            Add LIKE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a LIKE statement.</param>
+            <param name="val">Search field's value for the LIKE criteria.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddNotBetween(System.String,System.Double,System.Double)">
+            <summary>
+            Add a NOT BETWEEN criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare start and end against with a NOT BETWEEN statement.</param>
+            <param name="start">All documents that are returned must have the search field set to a number less than this start.</param>
+            <param name="end">All documents that are returned must have the search field set to a number greater than this end.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddNotEqual(System.String,System.String)">
+            <summary>
+            Add exact NOT EQUAL criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with an exact NOT EQUAL statement. statement</param>
+            <param name="val">Search field's value that must not be exactly equal in the document.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddNotInside(System.String,System.String[])">
+            <summary>
+            Add a NOT INSIDE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare values against with a NOT IN statement.</param>
+            <param name="values">An non-empty list of strings. All matching documents must not match the search field to one of the values in the list.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddNotLeftLike(System.String,System.String)">
+            <summary>
+            Add NOT LEFT LIKE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a NOT LEFT LIKE statement.</param>
+            <param name="val">Search field's value for the NOT LEFT LIKE criteria.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddNotLike(System.String,System.String)">
+            <summary>
+            Add NOT LIKE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a NOT LIKE statement.</param>
+            <param name="val">Search field's value for the NOT LIKE criteria.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddNotRightLike(System.String,System.String)">
+            <summary>
+            Add NOT RIGHT LIKE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a NOT RIGHT LIKE statement.</param>
+            <param name="val">Search field's value for the NOT RIGHT LIKE criteria.</param>
+        </member>
+        <member name="M:Worklight.WorklightJSONStoreQueryPart.AddRightLike(System.String,System.String)">
+            <summary>
+            Add RIGHT LIKE criteria to the query part.
+            </summary>
+            <param name="SearchField">The search field to compare val against with a RIGHT LIKE statement.</param>
+            <param name="val"> Search field's value for the RIGHT LIKE criteria.</param>
+        </member>
+        <member name="T:Worklight.WorklightAuthorizationPersistencePolicy">
+            <summary>
+            This enum represents the authorization header persistence policy for WLAUthorizationManager. 
+            This policy controls whether or the authorization header is persisted across multiple runs of the application or not.
+            </summary>
+        </member>
+        <member name="F:Worklight.WorklightAuthorizationPersistencePolicy.ALWAYS">
+            <summary>
+            If this policy is set, the authorization header will always be persisted.
+            </summary>
+        </member>
+        <member name="F:Worklight.WorklightAuthorizationPersistencePolicy.NEVER">
+            <summary>
+            If this policy is set, the authorization header will never be persisted. 
+            This means that it will only be stores in memory and be lost when the application closes.
+            </summary>
+        </member>
+        <member name="T:Worklight.WorklightAuthorizationManager">
+            <summary>
+            This class manages the entire OAuth flow, from client registration to token generation.
+            </summary>
+        </member>
+        <member name="P:Worklight.WorklightAuthorizationManager.AppIdentity">
+            <summary>
+            Retrieves the application identity, or null if one is not currently available.
+            </summary>
+            <returns>JsonObject containing the application identity.</returns>
+        </member>
+        <member name="P:Worklight.WorklightAuthorizationManager.DeviceIdentity">
+            <summary>
+            Retrieves the device identity, or null if one is not currently available.
+            </summary>
+            <value>JsonObject containing the device identity.</value>
+        </member>
+        <member name="P:Worklight.WorklightAuthorizationManager.UserIdentity">
+            <summary>
+            Retrieves the user identity, or null if one is not currently available.
+            </summary>
+            <value>JsonObject containing the user identity.</value>
+        </member>
+        <member name="P:Worklight.WorklightAuthorizationManager.AuthorizationPersistencePolicy">
+            <summary>
+            Gets the current authorization header persistence policy.
+            </summary>
+            <value>The authorization header persistence policy.</value>
+        </member>
+        <member name="M:Worklight.WorklightAuthorizationManager.GetAuthorizationScope(System.Net.HttpWebResponse)">
+            <summary>
+            Returns the scope that is required by the resource that produced the given response.
+            This method expects to be given only response objects for which the method isAuthorizationRequired(HttpResponse) returns true.
+            </summary>
+            <returns>String representing the scope required by the resource.</returns>
+            <param name="response">HTTP response object</param>
+        </member>
+        <member name="M:Worklight.WorklightAuthorizationManager.GetAuthorizationScope(System.String)">
+            <summary>
+            Returns the scope that is required by the resource that produced the given response.
+            This method expects to be given only headers from response objects for which the method 
+            isAuthorizationRequired(HttpResponse) returns true.
+            </summary>
+            <returns>String representing the scope required by the resource.</returns>
+            <param name="authenticationHeader">Value of the authentication header</param>
+        </member>
+        <member name="P:Worklight.WorklightAuthorizationManager.CachedAuthorizationHeader">
+            <summary>
+            Retrieves the cached authorization header.
+            If there is no cached header this method returns an empty string.
+            </summary>
+            <value>String containing cached authorization header.</value>
+        </member>
+        <member name="M:Worklight.WorklightAuthorizationManager.AddCachedAuthorizationHeader(System.Net.HttpWebRequest)">
+            <summary>
+            Adds the cached authorization header to the given HTTP request object.
+            </summary>
+            <param name="request">HTTP request object to which the header is to be added.</param>
+        </member>
+        <member name="M:Worklight.WorklightAuthorizationManager.IsAuthorizationRequired(System.Net.HttpWebResponse)">
+            <summary>
+            Checks whether the response is a MobileFirst Platform OAuth error.
+            </summary>
+            <returns><c>true</c>, if the response is a MobileFirst Platform OAuth error, <c>false</c> otherwise.</returns>
+            <param name="response">HTTP Web Response object</param>
+        </member>
+        <member name="M:Worklight.WorklightAuthorizationManager.IsAuthorizationRequired(System.Net.HttpStatusCode,System.String)">
+            <summary>
+            Checks whether the response is a MobileFirst Platform OAuth error.
+            </summary>
+            <returns><c>true</c>, if the response is a MobileFirst Platform OAuth error, <c>false</c> otherwise.</returns>
+            <param name="status">The HTTP status code</param>
+            <param name="authenticationHeader">Value of the authentication header</param>
+        </member>
+        <member name="M:Worklight.WorklightAuthorizationManager.ObtainAuthorizationHeader(System.String)">
+            <summary>
+            Explicit call to obtain the authorization header.
+            </summary>
+            <returns>A WorklightResponse object with the authorization header</returns>
+            <param name="scope">Scope required.</param>
+        </member>
+        <member name="T:Worklight.WorklightResourceRequest">
+            <summary>
+            This class encapsulates a resource request. The resource may be an adapter on the MobileFirst Server, or an external resource. 
+            The class provides several 'send' methods, with different inputs for the body of a request. 
+            In addition, the 'send' methods support two types of response listener:
+            WLResponseListener - The onSuccess method of this listener is called and provided with an instance of the WLResponse class. The content of the response is be read into the WLResponse instance by the platform, and will be accessible through methods of WLResponse. In case of a failure, the onFailure method of the listener is called and provided with an instance of the WLFailResponse class, that will contain all the information about the failure.
+            WLHttpResponseListener - The onSuccess method of this listener is called and provided with the original HTTP response object that was received from the server. The platform does not attempt to read or parse the response in any way. In case of a failure the onFailure method is called and provided with either the response from the server if one was received, or the exception that was thrown during the execution of this request.
+            Regardless of what type of listener was used, a successful response is any response with a status in the 2xx range. These responses are delivered to the onSuccess method. A response with a 4xx or 5xx status is considered a failure, and is delivered to the onFailure method.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.AddHeader(System.Net.WebHeaderCollection)">
+            <summary>
+            Adds a header to this resource request. This method allows response headers to have multiple values.
+            </summary>
+            <param name="header">The header to add.</param>
+        </member>
+        <member name="P:Worklight.WorklightResourceRequest.AllHeaders">
+            <summary>
+            Returns all the headers that were set for this resource request.
+            </summary>
+            <value>A WebHeaderCollection of headers.</value>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.GetFirstHeader(System.String)">
+            <summary>
+            Returns the first header for this resource request with the given name.
+            </summary>
+            <value>The first header corresponding the given name, or null if no such headers exist.</value>
+        </member>
+        <member name="P:Worklight.WorklightResourceRequest.HeaderNames">
+            <summary>
+            Returns the names of all the headers that were set for this resource request.
+            </summary>
+            <value>A string array containing the header names.</value>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.GetHeaders(System.String)">
+            <summary>
+            Returns all the headers for this resource request that have the given name.
+            </summary>
+            <returns>An array of Headers.</returns>
+            <param name="headerName">The name of the headers to return.</param>
+        </member>
+        <member name="P:Worklight.WorklightResourceRequest.Method">
+            <summary>
+            Returns the HTTP method for this resource request.
+            </summary>
+            <value>A string containing the name of the HTTP method..</value>
+        </member>
+        <member name="P:Worklight.WorklightResourceRequest.QueryParameters">
+            <summary>
+            Gets or sets the query parameters set for this resource request.
+            </summary>
+            <value>A Dictionary containing the query parameters.</value>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.SetQueryParameter(System.String,System.String)">
+            <summary>
+            Sets the value of the given query parameter name to the given value. If no such parameter exists, it will be added.
+            </summary>
+            <param name="name">The name of the parameter to set.</param>
+            <param name="value">The value of the parameter to set.</param>
+        </member>
+        <member name="P:Worklight.WorklightResourceRequest.Timeout">
+            <summary>
+            Gets or sets the timeout in milliseconds for this resource request.
+            </summary>
+            <value>The timeout for this resource request.</value>
+        </member>
+        <member name="P:Worklight.WorklightResourceRequest.URL">
+            <summary>
+            Returns the URL for this resource request.
+            </summary>
+            <value>The Uri object representing the path for this resource request.</value>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.RemoveHeaders(System.String)">
+            <summary>
+            Removes all the headers for this resource request with the given name.
+            </summary>
+            <param name="headerName">The name of the headers to remove.</param>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.Send(System.Byte[])">
+            <summary>
+            Send this resource request asynchronously, with the content of the given byte array as the request body. 
+            Note that this method does not set any content type header, if such a header is required it must be set before calling this method.
+            </summary>
+            <param name="data">The byte array containing the request body.</param>
+            <returns>A WorklightResponse object with the response from the server</returns>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.Send(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Send this resource request asynchronously, with the given form parameters as the request body. 
+            If no content type header was set, this method will set it to "application/x-www-form-urlencoded".
+            </summary>
+            <param name="formParameters">The parameters to put in the request body.</param>
+            <returns>A WorklightResponse object with the response from the server</returns>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.Send(System.Json.JsonObject)">
+            <summary>
+            Send this resource request asynchronously, with the given JSON object as the request body. 
+            If no content type header was set, this method will set it to "application/json".
+            </summary>
+            <param name="json">The JSON object to put in the request body.</param>
+            <returns>A WorklightResponse object with the response from the server</returns>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.Send">
+            <summary>
+            Send this resource request asynchronously, without a request body.
+            </summary>
+            <returns>A WorklightResponse object with the response from the server</returns>
+        </member>
+        <member name="M:Worklight.WorklightResourceRequest.SetHeader(System.Collections.Generic.KeyValuePair{System.String,System.String})">
+            <summary>
+            Sets a header for this resource request. If the header had already been set, the new value overwrites the previous one.
+            </summary>
+            <param name="header">The header to set.</param>
+        </member>
+        <member name="T:Worklight.WorklightUserCertificateManager">
+            <summary>
+            This class provides some methods needed when using the X509 User Certificate Enrollment and Authentication security realm.
+            </summary>
+        </member>
+        <member name="M:Worklight.WorklightUserCertificateManager.DeleteCertificate">
+            <summary>
+            Deletes the certificate that is currently stored for the X509 User Certificate Enrollment and Authentication security realm.
+            </summary>
+            <returns><c>true</c>, if successfully removed User Certificate credentials from the keyChain, <c>false</c> otherwise.</returns>
+            <remarks>On Android, this method always returns true </remarks>
+        </member>
+    </members>
+</doc>

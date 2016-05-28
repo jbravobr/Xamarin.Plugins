@@ -49,9 +49,22 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Json" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
+    <Reference Include="Worklight.iOS">
+      <HintPath>..\..\Components\ibm-worklight-7.1.0.1\lib\ios-unified\Worklight.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Worklight.Xamarin.iOS">
+      <HintPath>..\..\Components\ibm-worklight-7.1.0.1\lib\ios-unified\Worklight.Xamarin.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="ibm-worklight">
+      <Visible>False</Visible>
+      <Version>7.1.0.1</Version>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

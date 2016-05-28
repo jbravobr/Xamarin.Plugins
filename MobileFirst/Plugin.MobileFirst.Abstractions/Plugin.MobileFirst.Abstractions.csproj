@@ -35,11 +35,19 @@
     <DocumentationFile>bin\Release\Plugin.MobileFirst.Abstractions.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
+    <Compile Include="CustomChallengeHandler.cs" />
+    <Compile Include="IMobileFirst.cs" />
+    <Compile Include="NotificationListener.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WorklightResult.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IMobileFirst.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Reference Include="System.Json">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\Xamarin.iOS\v1.0\System.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Worklight.Xamarin.iOS">
+      <HintPath>..\..\Components\ibm-worklight-7.1.0.1\lib\ios-unified\Worklight.Xamarin.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

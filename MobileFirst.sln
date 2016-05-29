@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5FF1E634-1880-44C1-BFF0-578D2F468F28}"
 	ProjectSection(SolutionItems) = preProject
 		MobileFirst.Plugin.nuspec = MobileFirst.Plugin.nuspec
+		MobileFirst\Plugin.MobileFirst.Android\readme.txt = MobileFirst\Plugin.MobileFirst.Android\readme.txt
 	EndProjectSection
 EndProject
 Global

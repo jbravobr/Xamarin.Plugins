@@ -89,12 +89,6 @@ namespace Plugin.MobileFirst
             }
         }
 
-        /// <summary>
-        /// Configures the Client Instances
-        /// </summary>
-        /// <param name="wlc">Worklight Client Instance</param>
-        public void Init(object wlc) => _client = (IWorklightClient)wlc;
-
         #endregion
 
         #region Constuctors
@@ -102,13 +96,18 @@ namespace Plugin.MobileFirst
         /// <summary>
         /// Default constructor
         /// </summary>
-        /// <param name="wlc"></param>
         public MobileFirstImplementation()
         {
         }
         #endregion
 
-        #region Async Functions
+        #region Public Functions
+
+        /// <summary>
+        /// Configures the Client Instances For the Xamarin Forms App
+        /// </summary>
+        /// <param name="wlc">Worklight Client Instance</param>
+        public void Init(object wlc) => _client = (IWorklightClient)wlc;
 
         /// <summary>
         /// Make a async connection with the Server
@@ -166,7 +165,7 @@ namespace Plugin.MobileFirst
         }
 
         /// <summary>
-        /// Call the procedure from Async Method
+        /// Call a procedure from Async Method
         /// </summary>
         /// <returns></returns>
         public async Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName)
@@ -281,20 +280,27 @@ namespace Plugin.MobileFirst
         /// </summary>
         private async Task<WorklightResponse> Connect()
         {
-            // Lets send a message to the server
-            _client.Analytics.Log("Trying to connect to server", _metadata);
+            try
+            {
+                // Lets send a message to the server
+                _client.Analytics.Log("Trying to connect to server", _metadata);
 
-            //ChallengeHandler customCH = new CustomChallengeHandler(_appRealm);
-            //_client.RegisterChallengeHandler(customCH);
+                //ChallengeHandler customCH = new CustomChallengeHandler(_appRealm);
+                //_client.RegisterChallengeHandler(customCH);
 
-            WorklightResponse task = await _client.Connect();
+                WorklightResponse task = await _client.Connect();
 
-            // Lets log to the local client (not server)
-            _client.Logger("Xamarin").Trace("Connection");
-            // Write to the server the connection status
-            _client.Analytics.Log("Connect response : " + task.Success);
+                // Lets log to the local client (not server)
+                _client.Logger("Xamarin").Trace("Connection");
+                // Write to the server the connection status
+                _client.Analytics.Log("Connect response : " + task.Success);
 
-            return task;
+                return task;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         /// <summary>
@@ -310,9 +316,9 @@ namespace Plugin.MobileFirst
                 WorklightResponse task = await _client.PushService.UnsubscribeFromEventSource(_pushAlias);
                 return task;
             }
-            catch
+            catch (Exception ex)
             {
-                return null;
+                throw ex;
             }
 
         }
@@ -326,10 +332,17 @@ namespace Plugin.MobileFirst
             Debug.WriteLine("Subscribing to push");
 #endif
 
-            _client.PushService.ReadyToSubscribe += HandleReadyToSubscribe;
-            _client.PushService.InitRegistration();
+            try
+            {
+                _client.PushService.ReadyToSubscribe += HandleReadyToSubscribe;
+                _client.PushService.InitRegistration();
 
-            return await _client.Connect();
+                return await _client.Connect();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
 
         }
 
@@ -342,8 +355,15 @@ namespace Plugin.MobileFirst
             Debug.WriteLine("We are ready to subscribe to the notification service!!");
 #endif
 
-            _client.PushService.RegisterEventSourceNotificationCallback(_pushAlias, "PushAdapter", "PushEventSource", new PushNotificationListener());
-            _client.PushService.SubscribeToEventSource(_pushAlias, new Dictionary<string, string>());
+            try
+            {
+                _client.PushService.RegisterEventSourceNotificationCallback(_pushAlias, "PushAdapter", "PushEventSource", new PushNotificationListener());
+                _client.PushService.SubscribeToEventSource(_pushAlias, new Dictionary<string, string>());
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         /// <summary>

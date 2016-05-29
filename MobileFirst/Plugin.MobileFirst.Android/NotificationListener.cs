@@ -5,19 +5,23 @@ using System.Diagnostics;
 namespace Plugin.MobileFirst.Abstractions
 {
     /// <summary>
-    /// Class for the Notification (Push)
+    /// Class to work with Push Notifications
     /// </summary>
     public class PushNotificationListener : WorklightPushNotificationListener
     {
         /// <summary>
-        /// Listener for Message events
+        /// The Notification event.
         /// </summary>
-        /// <param name="NotificationProperties"></param>
-        /// <param name="Payload"></param>
+        /// <param name="NotificationProperties">Notification properties.</param>
+        /// <param name="Payload">Payload.</param>
         public void OnMessage(JsonObject NotificationProperties, JsonObject Payload)
         {
+            //Do stuff here.
+
+#if DEBUG
             Debug.WriteLine("Got notification!");
-            Debug.WriteLine(NotificationProperties.ToString());
+            Debug.WriteLine(NotificationProperties.ToString()); 
+#endif
         }
     }
 }

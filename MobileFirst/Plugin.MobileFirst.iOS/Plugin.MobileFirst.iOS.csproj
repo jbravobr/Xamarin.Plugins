@@ -68,5 +68,10 @@
       <Version>7.1.0.1</Version>
     </XamarinComponentReference>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="worklight.plist">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

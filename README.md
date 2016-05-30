@@ -4,6 +4,7 @@ Plugin designed for connections with MFP servers (IBM Mobile Platform First). Wi
 ### Setup
 * Available on NuGet: https://www.nuget.org/packages/Plugin.MobileFirst/ [![NuGet](https://img.shields.io/nuget/v/Plugin.MobileFirst.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.MobileFirst/)
 * Install into your PCL project and Client projects.
+* **Install IBM Mobile First SDK Component into your Client projects** [IBM MobileFirst SDK ](https://components.xamarin.com/view/ibm-worklight)
 
 Built with C# 6 features, you must be running VS 2015 or Xamarin Studio to compile. **NuGets of course work everywhere!**
 
@@ -135,6 +136,8 @@ YOU NEED TO INITIALIZE THE PLUGIN FORM YOUR AppDelegate.cs AS THAT:
 ```csharp
 CrossMobileFirst.Current.Init();
 ```
+
+**DO NOT FORGET TO INSTALL THE IBM MOBILEFIRST SDK (LINK ABOVE) INTO YOUR CLIENTS PROJECTS**
 
 #### CONFIGURATIONS OF MFP SERVER
 

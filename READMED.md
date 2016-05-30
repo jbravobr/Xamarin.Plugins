@@ -1,9 +1,29 @@
-## ![](Common/connectivity_icon.png) MobileFirst Plugin for Xamarin Forms
+## ![](https://raw.githubusercontent.com/jbravobr/Xamarin.Plugins/master/mobilefirst.png) MobileFirst Plugin for Xamarin Forms
 
 Plugin designed for connections with MFP servers (IBM Mobile Platform First). With it you can make calls Procedures, send logs and connect / disconnect to the Push Notifications service
 ### Setup
-* Available on NuGet: https://www.nuget.org/packages/Plugin.MobileFirst/ [![NuGet](https://img.shields.io/nuget/v/Xam.Plugin.Connectivity.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.MobileFirst/)
+* Available on NuGet: https://www.nuget.org/packages/Plugin.MobileFirst/ [![NuGet](https://img.shields.io/nuget/v/Plugin.MobileFirst.svg?label=NuGet)](https://www.nuget.org/packages/Plugin.MobileFirst/)
 * Install into your PCL project and Client projects.
+
+Built with C# 6 features, you must be running VS 2015 or Xamarin Studio to compile. **NuGets of course work everywhere!**
+
+## Follow Me
+* Twitter: [@jbravobr](http://twitter.com/jbravobr)
+* Blog: [Stx.blog.br](http://stx.blog.br)
+
+
+Build Status: [![Build status](https://ci.appveyor.com/api/projects/status/w752ll1uen9kvl5l?svg=true)](https://ci.appveyor.com/project/JamesMontemagno/xamarin-plugins)
+
+## What is this?
+This is my PCL Plugin from IBM Mobile First Platform to Xamarin Forms
+
+## Contribute
+My Plugins for Xamarin are completely open source and I encourage and accept pull requests! So please help out in any ways you can:
+
+1. Report Bugs: Open an Issue
+2. Submit Feature Requests: Open an Issue
+3. Fix a Bug or Add Feature: Send a Pull Request
+4. Create your Own Plugin : [Learn How](https://github.com/xamarin/plugins)
 
 **Platform Support**
 
@@ -12,122 +32,122 @@ Plugin designed for connections with MFP servers (IBM Mobile Platform First). Wi
 |Xamarin.iOS|Yes|iOS 6+|
 |Xamarin.iOS Unified|Yes|iOS 6+|
 |Xamarin.Android|Yes|API 10+|
-|Windows Phone Silverlight|Yes|8.0+|
-|Windows Phone RT|Yes|8.1+|
-|Windows Store RT|Yes|8.1+|
-|Windows 10 UWP|Yes|10+|
+|Windows Phone Silverlight|No||
+|Windows Phone RT|No||
+|Windows Store RT|No||
+|Windows 10 UWP|No||
 |Xamarin.Mac|No||
 
 
 ### API Usage
 
-Call **CrossConnectivity.Current** from any project or PCL to gain access to APIs.
+Call **CrossMobileFirst.Current** from any project or PCL to gain access to APIs.
 
 
-**IsConnected**
+**Init (iOS)**
 ```csharp
 /// <summary>
-/// Gets if there is an active internet connection
+/// Init Method for iOS
 /// </summary>
-bool IsConnected { get; }
+void Init();
 ```
 
-**ConnectionTypes**
+**Init (Android)**
 ```csharp
 /// <summary>
-/// Gets the list of all active connection types.
+/// Init Method for Android
 /// </summary>
-IEnumerable<ConnectionType> ConnectionTypes { get; }
+/// <param name="activity">Is the Android App Activity</param>
+void Init(object activity);
 ```
 
-**Bandwidths**
+**ConnectAsync**
 ```csharp
 /// <summary>
-/// Retrieves a list of available bandwidths for the platform.
-/// Only active connections.
+/// Make a new async connection with the MFP Server
 /// </summary>
-IEnumerable<UInt64> Bandwidths { get; }
+/// <returns>WorlightResult</returns>
+Task<WorklightResult> ConnectAsync();
 ```
 
-#### Pinging Hosts
-
-**IsReachable**
+**RestInvokeAsync**
 ```csharp
 /// <summary>
-/// Tests if a host name is pingable
+/// Make a async Rest Invoke to a procedure from the MFP Server
 /// </summary>
-/// <param name="host">The host name can either be a machine name, such as "java.sun.com", or a textual representation of its IP address (127.0.0.1)</param>
-/// <param name="msTimeout">Timeout in milliseconds</param>
+/// <param name="adapterName">The Name of the Adapter</param>
+/// <param name="adapterProcedureName">The Name of the Procedure</param>
+/// <param name="methodType">The Type of HTTP Verb</param>
+/// <returns>WorlightResult</returns>
+Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedureName, string methodType);
+```
+
+**InvokeAsync**
+```csharp
+/// <summary>
+/// Make a async call to a procedure from the MFP Server
+/// </summary>
+/// <param name="adapterName">The Adapter name</param>
+/// <param name="adapterProcedureName">The Procedure name</param>
+/// <returns>WorlightResult</returns>
+Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName);
+```
+
+**SendActivityAsync**
+```csharp
+/// <summary>
+/// Use this to send logs and other data to the MFP Server
+/// </summary>
+/// <param name="data">Data to be sent to the MFP server</param>
+/// <returns>WorlightResult</returns>
+Task<WorklightResult> SendActivityAsync(string data);
+```
+
+**Init iOS**
+```csharp
+/// <summary>
+/// Do a new Subscription on the Push Notification server
+/// </summary>
+/// <returns>WorlightResult</returns>
+Task<WorklightResult> SubscribeAsync();
+```
+
+**UnSubscribeAsync**
+```csharp
+/// <summary>
+/// Undo a existing subscription on the Push Notification server
+/// </summary>
 /// <returns></returns>
-Task<bool> IsReachable(string host, int msTimeout = 5000);
-```
-
-**IsRemoteReachable**
-```csharp
-/// <summary>
-/// Tests if a remote host name is reachable (no http:// or www.)
-/// </summary>
-/// <param name="host">Host name can be a remote IP or URL of website</param>
-/// <param name="port">Port to attempt to check is reachable.</param>
-/// <param name="msTimeout">Timeout in milliseconds.</param>
-/// <returns></returns>
-Task<bool> IsRemoteReachable(string host, int port = 80, int msTimeout = 5000);
-```
-
-#### Changes in Connectivity
-When any network connectiivty is gained, changed, or loss you can register for an event to fire:
-```csharp
-/// <summary>
-/// Event handler when connection changes
-/// </summary>
-event ConnectivityChangedEventHandler ConnectivityChanged; 
-```
-
-You will get a ConnectivityChangeEventArgs with the status if you are connected or not:
-```csharp
-public class ConnectivityChangedEventArgs : EventArgs
-{
-  public bool IsConnected { get; set; }
-}
-
-public delegate void ConnectivityChangedEventHandler(object sender, ConnectivityChangedEventArgs e);
-```
-
-Usage sample from Xamarin.Forms:
-```csharp
-CrossConnectivity.Current.ConnectivityChanged += (sender, args) =>
-  {
-    page.DisplayAlert("Connectivity Changed", "IsConnected: " + args.IsConnected.ToString(), "OK");
-  };
+Task<WorklightResult> UnSubscribeAsync();
 ```
 
 
 ### **IMPORTANT**
 Android:
-The ACCESS_NETWORK_STATE and ACCESS_WIFI_STATE permissions are required and will be automatically added to your Android Manifest.
+YOU NEED TO INITIALIZE THE PLUGIN FROM YOUR MAIN ACTIVITY AS THAT:
 
-By adding these permissions [Google Play will automatically filter out devices](http://developer.android.com/guide/topics/manifest/uses-feature-element.html#permissions-features) without specific hardward. You can get around this by adding the following to your AssemblyInfo.cs file in your Android project:
-
-```
-[assembly: UsesFeature("android.hardware.wifi", Required = false)]
+```csharp
+CrossMobileFirst.Current.Init(this);
 ```
 
 iOS:
-Bandwidths are not supported and will always return an empty list.
+YOU NEED TO INITIALIZE THE PLUGIN FORM YOUR AppDelegate.cs AS THAT:
 
-Windows 8.1 & Windows Phone 8.1 RT:
-RT apps can not perform loopback, so you can not use IsReachable to query the states of a local IP.
+```csharp
+CrossMobileFirst.Current.Init();
+```
 
-Permissions to think about:
-The Private Networks (Client & Server) capability is represented by the Capability name = "privateNetworkClientServer" tag in the app manifest. 
-The Internet (Client & Server) capability is represented by the Capability name = "internetClientServer" tag in the app manifest.
+#### CONFIGURATIONS OF MFP SERVER
+
+You will have to configurate correctly the **Worklight Properties File**.
+At **ANDROID** you wil find at **Assets** Directory under the name **wlclient.properties**.
+At **iOS** you will find at the **ROOT Directory of your Application** under the name **worklight.plist** 
 
 
 #### Contributors
-* [jamesmontemagno](https://github.com/jamesmontemagno)
+* [jbravobr](https://github.com/jbravobr)
 
 Thanks!
 
 #### License
-Licensed under main repo license
-
+Licensed under MIT see License file.

@@ -13,7 +13,7 @@ namespace Plugin.MobileFirst.Abstractions
         void Init();
 
         /// <summary>
-        /// Initi Method for Android
+        /// Init Method for Android
         /// </summary>
         /// <param name="activity">Is the Android App Activity</param>
         void Init(object activity);

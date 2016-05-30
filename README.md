@@ -103,7 +103,7 @@ Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureNam
 Task<WorklightResult> SendActivityAsync(string data);
 ```
 
-**Init iOS**
+**SubscribeAsync**
 ```csharp
 /// <summary>
 /// Do a new Subscription on the Push Notification server

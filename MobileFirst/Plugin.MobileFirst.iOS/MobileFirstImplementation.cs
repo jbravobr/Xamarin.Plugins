@@ -98,6 +98,7 @@ namespace Plugin.MobileFirst
         /// </summary>
         public MobileFirstImplementation()
         {
+            Init();
         }
         #endregion
 
@@ -112,7 +113,10 @@ namespace Plugin.MobileFirst
         /// <summary>
         /// Configures the Client Instances For the Xamarin Forms App
         /// </summary>
-        public void Init() => _client = Worklight.Xamarin.iOS.WorklightClient.CreateInstance();
+        public void Init()
+        {
+            _client = Worklight.Xamarin.iOS.WorklightClient.CreateInstance();
+        }
 
         /// <summary>
         /// Make a async connection with the Server

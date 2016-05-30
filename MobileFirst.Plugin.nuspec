@@ -48,14 +48,14 @@
 		<file src="readme.txt" target="" />
 		
 		<!--Worklight Android-->
-		<file src="MobileFirst\Plugin.MobileFirst.Android\bin\Release\Worklight.Android.dll" target="lib\MonoAndroid10\Worklight.Android.dll" />
+		<!--<file src="MobileFirst\Plugin.MobileFirst.Android\bin\Release\Worklight.Android.dll" target="lib\MonoAndroid10\Worklight.Android.dll" />
 		<file src="MobileFirst\Plugin.MobileFirst.Android\bin\Release\Worklight.Xamarin.Android.dll" target="lib\MonoAndroid10\Worklight.Xamarin.Android.dll" />
-		<file src="MobileFirst\Plugin.MobileFirst.Android\bin\Release\Worklight.Xamarin.Android.xml" target="lib\MonoAndroid10\Worklight.Xamarin.Android.xml" />
+		<file src="MobileFirst\Plugin.MobileFirst.Android\bin\Release\Worklight.Xamarin.Android.xml" target="lib\MonoAndroid10\Worklight.Xamarin.Android.xml" />-->
 		<file src="MobileFirst\Plugin.MobileFirst.Android\Assets\wlclient.properties" target="Assets" />
 		
 		<!--Worklight iOS-->
-		<file src="MobileFirst\Plugin.MobileFirst.iOS\bin\iPhone\Release\Worklight.iOS.dll" target="lib\Xamarin.iOS10\Worklight.iOS.dll" />
-		<file src="MobileFirst\Plugin.MobileFirst.iOS\bin\iPhone\Release\Worklight.Xamarin.iOS.dll" target="lib\Xamarin.iOS10\Worklight.Xamarin.iOS.dll" />
+		<!--<file src="MobileFirst\Plugin.MobileFirst.iOS\bin\iPhone\Release\Worklight.iOS.dll" target="lib\Xamarin.iOS10\Worklight.iOS.dll" />
+		<file src="MobileFirst\Plugin.MobileFirst.iOS\bin\iPhone\Release\Worklight.Xamarin.iOS.dll" target="lib\Xamarin.iOS10\Worklight.Xamarin.iOS.dll" />-->
 		<!--<file src="MobileFirst\Plugin.MobileFirst.iOS\bin\iPhone\Release\Worklight.Xamarin.iOS.xml" target="" />-->
 		<file src="MobileFirst\Plugin.MobileFirst.iOS\worklight.plist" target="" />
 

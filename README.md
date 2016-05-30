@@ -11,6 +11,8 @@ Built with C# 6 features, you must be running VS 2015 or Xamarin Studio to compi
 * Twitter: [@jbravobr](http://twitter.com/jbravobr)
 * Blog: [Stx.blog.br](http://stx.blog.br)
 
+Build Status: [![Build status](https://ci.appveyor.com/api/projects/status/github/jbravobr/Xamarin.Plugins?branch=master&svg=true)](https://ci.appveyor.com/project/jbravobr/xamarin-plugins)
+
 ## What is this?
 This is my PCL Plugin from IBM Mobile First Platform to Xamarin Forms
 

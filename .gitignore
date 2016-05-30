@@ -15,17 +15,12 @@
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
-<<<<<<< HEAD
-[Xx]64/
-[Xx]86/
-[Bb]uild/
-=======
 x64/
 x86/
->>>>>>> 32e24c9b16bbbd96f06aed534526660fdeb610fd
 bld/
 [Bb]in/
 [Oo]bj/
+[Ll]og/
 
 # Visual Studio 2015 cache/options directory
 .vs/
@@ -85,10 +80,8 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
-<<<<<<< HEAD
 *.VC.db
-=======
->>>>>>> 32e24c9b16bbbd96f06aed534526660fdeb610fd
+*.VC.VC.opendb
 
 # Visual Studio profiler
 *.psess
@@ -147,18 +140,15 @@ publish/
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
-<<<<<<< HEAD
-
-# TODO: Un-comment the next line if you do not want to checkin 
-# your web deploy settings because they may include unencrypted
-# passwords
-#*.pubxml
-=======
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
->>>>>>> 32e24c9b16bbbd96f06aed534526660fdeb610fd
 *.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
 
 # NuGet Packages
 *.nupkg
@@ -180,12 +170,11 @@ csx/
 ecf/
 rcf/
 
-# Microsoft Azure ApplicationInsights config file
-ApplicationInsights.config
-
-# Windows Store app package directory
+# Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
 
 # Visual Studio cache files
 # files ending in .cache can be ignored
@@ -195,10 +184,6 @@ BundleArtifacts/
 
 # Others
 ClientBin/
-<<<<<<< HEAD
-[Ss]tyle[Cc]op.*
-=======
->>>>>>> 32e24c9b16bbbd96f06aed534526660fdeb610fd
 ~$*
 *~
 *.dbmdl
@@ -207,6 +192,10 @@ ClientBin/
 *.publishsettings
 node_modules/
 orleans.codegen.cs
+
+# Since there are multiple workflows, uncomment next line to ignore bower_components
+# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+#bower_components/
 
 # RIA/Silverlight projects
 Generated_Code/
@@ -251,19 +240,16 @@ FakesAssemblies/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 
-<<<<<<< HEAD
-# LightSwitch generated files
-GeneratedArtifacts/
-ModelManifest.xml
-
-=======
->>>>>>> 32e24c9b16bbbd96f06aed534526660fdeb610fd
 # Paket dependency manager
 .paket/paket.exe
+paket-files/
 
 # FAKE - F# Make
-<<<<<<< HEAD
 .fake/
-=======
-.fake/
->>>>>>> 32e24c9b16bbbd96f06aed534526660fdeb610fd
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Exclude Components Dir
+Components/

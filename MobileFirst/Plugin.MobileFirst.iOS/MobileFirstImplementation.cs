@@ -104,10 +104,15 @@ namespace Plugin.MobileFirst
         #region Public Functions
 
         /// <summary>
+        /// Init Method
+        /// </summary>
+        /// <param name="activity"></param>
+        public void Init(object activity) { }
+
+        /// <summary>
         /// Configures the Client Instances For the Xamarin Forms App
         /// </summary>
-        /// <param name="wlc">Worklight Client Instance</param>
-        public void Init(object wlc) => _client = (IWorklightClient)wlc;
+        public void Init() => _client = Worklight.Xamarin.iOS.WorklightClient.CreateInstance();
 
         /// <summary>
         /// Make a async connection with the Server

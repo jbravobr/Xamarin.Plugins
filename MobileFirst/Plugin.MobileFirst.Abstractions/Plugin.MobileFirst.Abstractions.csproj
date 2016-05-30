@@ -40,11 +40,6 @@
     <Compile Include="WorklightResult.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="System.Json">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\Xamarin.iOS\v1.0\System.Json.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="readme.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -142,8 +142,8 @@ CrossMobileFirst.Current.Init();
 #### CONFIGURATIONS OF MFP SERVER
 
 You will have to configurate correctly the **Worklight Properties File**.
-At **ANDROID** you wil find at **Assets** Directory under the name **wlclient.properties**.
-At **iOS** you will find at the **ROOT Directory of your Application** under the name **worklight.plist** 
+At **ANDROID** you will have to put at **Assets** Directory under the name **wlclient.properties**.
+At **iOS** you will have to put at the **ROOT Directory of your Application** under the name **worklight.plist** 
 
 
 #### Contributors

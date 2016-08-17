@@ -78,8 +78,9 @@ Task<WorklightResult> ConnectAsync();
 /// <param name="adapterName">The Name of the Adapter</param>
 /// <param name="adapterProcedureName">The Name of the Procedure</param>
 /// <param name="methodType">The Type of HTTP Verb</param>
+/// <param name="parameters">JSON parameters</param>
 /// <returns>WorlightResult</returns>
-Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedureName, string methodType);
+Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedureName, string methodType, object[] parameters);
 ```
 
 **InvokeAsync**
@@ -89,8 +90,9 @@ Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedur
 /// </summary>
 /// <param name="adapterName">The Adapter name</param>
 /// <param name="adapterProcedureName">The Procedure name</param>
+/// <param name="parameters">JSON parameters</param>
 /// <returns>WorlightResult</returns>
-Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName);
+Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName, object[] parameters);
 ```
 
 **SendActivityAsync**

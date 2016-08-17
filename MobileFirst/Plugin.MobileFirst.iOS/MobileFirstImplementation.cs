@@ -149,8 +149,9 @@ namespace Plugin.MobileFirst
         /// <param name="adapterName">The name of the adapter</param>
         /// <param name="adapterProcedureName">The name of the procedure</param>
         /// <param name="methodType">The HTTP verb used to call the procedure</param>
+        /// <param name="parameters">JSON parameters</param>
         /// <returns></returns>
-        public async Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedureName, string methodType)
+        public async Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedureName, string methodType, object[] parameters)
         {
             var result = new WorklightResult();
 
@@ -177,7 +178,7 @@ namespace Plugin.MobileFirst
         /// Call a procedure from Async Method
         /// </summary>
         /// <returns></returns>
-        public async Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName)
+        public async Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName, object[] parameters)
         {
             var result = new WorklightResult();
 
@@ -188,7 +189,7 @@ namespace Plugin.MobileFirst
                 if (!conResp.Success)
                     return conResp;
 
-                result = await InvokeProc(adapterName, adapterProcedureName);
+                result = await InvokeProc(adapterName, adapterProcedureName, parameters);
 
             }
             catch (Exception ex)
@@ -379,7 +380,7 @@ namespace Plugin.MobileFirst
         /// Invokes the procedured
         /// </summary>
         /// <returns>The proc.</returns>
-        private async Task<WorklightResult> InvokeProc(string adapterName, string adapterProcedureName)
+        private async Task<WorklightResult> InvokeProc(string adapterName, string adapterProcedureName, object[] parameters)
         {
             var result = new WorklightResult();
 
@@ -391,7 +392,7 @@ namespace Plugin.MobileFirst
                 Debug.WriteLine("Trying to invoke proc");
 #endif
 
-                var invocationData = new WorklightProcedureInvocationData(adapterName, adapterProcedureName, new object[] { "technology" });
+                var invocationData = new WorklightProcedureInvocationData(adapterName, adapterProcedureName, parameters);
                 WorklightResponse task = await _client.InvokeProcedure(invocationData);
 
 #if DEBUG

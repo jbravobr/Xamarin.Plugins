@@ -30,16 +30,18 @@ namespace Plugin.MobileFirst.Abstractions
         /// <param name="adapterName">The Name of the Adapter</param>
         /// <param name="adapterProcedureName">The Name of the Procedure</param>
         /// <param name="methodType">The Type of HTTP Verb</param>
+        /// <param name="parameters">JSON parameters</param>
         /// <returns>WorlightResult</returns>
-        Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedureName, string methodType);
+        Task<WorklightResult> RestInvokeAsync(string adapterName, string adapterProcedureName, string methodType, object[] parameters);
 
         /// <summary>
         /// Make a async call to a procedure from the MFP Server
         /// </summary>
         /// <param name="adapterName">The Adapter name</param>
         /// <param name="adapterProcedureName">The Procedure name</param>
+        /// <param name="parameters">JSON parameters</param>
         /// <returns>WorlightResult</returns>
-        Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName);
+        Task<WorklightResult> InvokeAsync(string adapterName, string adapterProcedureName, object[] parameters);
 
         /// <summary>
         /// Use this to send logs and other data to the MFP Server
